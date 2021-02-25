@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: Kratos Multiphysics
+  version: 8.0
   folders:
 
   - title:
@@ -19,29 +19,29 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Project Information
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Home
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: Overview
+      url: overview.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Copyright and license
+      url: /licence.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: Application Cases
+      url: /Application-Cases.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
+    - title: Management Structure
+      url: /Management-Structure.html
       output: web, pdf
 
   - title: Release Notes
