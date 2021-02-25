@@ -1,0 +1,2 @@
+**KratosMultiphysics.IsDistributedRun** = IsDistributedRun()
+

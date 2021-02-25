@@ -1,0 +1,3 @@
+**KratosMultiphysics.StrainMeasure_Deformation_Gradient** =
+StrainMeasure.StrainMeasure_Deformation_Gradient
+
