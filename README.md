@@ -1,0 +1,1 @@
+# KratosWikiAsDocTest.github.io
