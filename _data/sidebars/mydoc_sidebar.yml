@@ -29,19 +29,19 @@ entries:
       type: homepage
 
     - title: Overview
-      url: overview.html
+      url: /pages/overview.html
       output: web, pdf
 
     - title: Copyright and license
-      url: /licence.html
+      url: /pages/licence.html
       output: web, pdf
 
     - title: Application Cases
-      url: /Application-Cases.html
+      url: /pages/Application-Cases.html
       output: web, pdf
 
     - title: Management Structure
-      url: /Management-Structure.html
+      url: /pages/Management-Structure.html
       output: web, pdf
 
   - title: Release Notes
