@@ -1,3 +1,12 @@
+---
+title: "Management Structure"
+keywords: management structure
+tags: [management]
+sidebar: mydoc_sidebar
+permalink: Management-Structure.html
+summary: Overview of the project
+---
+
 # Steering Committee
 It is the committee in charge of fostering the use and development of Kratos Multiphysics in academia, research centers and industry. It is also in charge of organizing the election process for the elected members in the Technical Committee(TC), of approving the new members of the TC appointed by industrial sponsors, and of establishing and maintaining the general Kratos project guidelines. A special focus is on social, cooperative and strategic aspects.
 ### Composition
