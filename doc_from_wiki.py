@@ -24,7 +24,7 @@ def GenerateUrlsMap(wiki_file):
         map_url = re.match("(\[.+\]):(.+)", l)
         if map_url:
             map_key = map_url.group(1)[1:-1]
-            map_url = map_url.group(2)
+            map_url = map_url.group(2)[1:]
 
             urls_map[map_key] = map_url
 
