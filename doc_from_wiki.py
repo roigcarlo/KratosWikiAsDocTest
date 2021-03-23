@@ -70,7 +70,7 @@ def GenerateSideBar(wiki_file, urls_map):
                     page_url = page_url.split("/")[-1]
                 
             if page_url:
-                page_url = "pages/" + page_url + ".html"
+                page_url = "/pages/" + page_url + ".html"
 
                 buff.append(2 * tk + "- title: {}\n".format(page_name))
                 buff.append(3 * tk + "url: {}\n".format(page_url))
