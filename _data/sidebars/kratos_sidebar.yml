@@ -1,0 +1,253 @@
+entries:
+- title: sidebar
+  product: Kratos Multiphysics
+  version: 8.0
+  folders:
+
+  - title: Project information
+    output: web
+    folderitems:
+    - title: Home
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki.html
+      output: web
+    - title: Overview
+      url: pages/Overview.html
+      output: web
+    - title: Copyright and license
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Licence.html
+      output: web
+    - title: Application Cases
+      url: pages/Application-Cases.html
+      output: web
+    - title: Management Structure
+      url: pages/Management-Structure.html
+      output: web
+
+  - title: Getting Started
+    output: web
+    folderitems:
+
+  - title: Workshop 2019 tutorials
+    output: web
+    folderitems:
+    - title: Running an example from GiD
+      url: pages/Running-an-example-from-GiD.html
+      output: web
+    - title: Kratos input files and I/O
+      url: pages/Kratos-input-files-and-IO.html
+      output: web
+    - title: Data management
+      url: pages/Data-management.html
+      output: web
+    - title: Solving strategies
+      url: pages/Solving-strategies.html
+      output: web
+    - title: Manipulating solution values
+      url: pages/Manipulating-solution-values.html
+      output: web
+    - title: Multiphysics
+      url: pages/Multiphysics-example.html
+      output: web
+
+  - title: Developers
+    output: web
+    folderitems:
+    - title: Style Guide
+      url: pages/Style-Guide.html
+      output: web
+    - title: Authorship of Kratos files
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Authorship-of-Kratos-files.html
+      output: web
+    - title: Configure .gitignore
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-make-Git-ignore-the-files-resulting-from-a-compilation-without-conflicts-in-.gitignore.html
+      output: web
+    - title: How to configure clang-format
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-configure-clang%E2%80%90format.html
+      output: web
+    - title: How to use smart pointer in Kratos
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-%22Smart-Pointers%22-within-Kratos.html
+      output: web
+    - title: How to define adjoint elements and response functions
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Adjoint-API.html
+      output: web
+    - title: KRATOS_API for Windows Compilation
+      url: pages/KRATOS_API-for-Windows-Compilation.html
+      output: web
+
+  - title: Kratos structure
+
+    output: web
+    folderitems:
+    - title: General Structure
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/General-structure.html
+      output: web
+    - title: Kratos kernel and application approach
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Editing-Kratos-kernel-and-application-approach.html
+      output: web
+    - title: Input data
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Input-data.html
+      output: web
+    - title: Mesh node ordering
+      url: pages/Mesh-node-ordering.html
+      output: web
+
+  - title: Conventions
+
+    output: web
+    folderitems:
+    - title: Local Axes Orientation
+      url: pages/Local-axes-orientation.html
+      output: web
+
+  - title: Solvers
+
+    output: web
+    folderitems:
+    - title: FEAST Solver
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-the-FEAST-Solver-in-Kratos%3F.html
+      output: web
+    - title: PaStiX Solver
+      url: pages/How-to-use-the-PaStiX-solver-in-Kratos.html
+      output: web
+
+  - title: Debugging, profiling and testing
+
+    output: web
+    folderitems:
+    - title: Compiling Kratos in debug mode
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-Compile-Kratos-in-Debug-mode.html
+      output: web
+    - title: Debugging Kratos using GDB
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Debugging-Kratos-Using-GDB.html
+      output: web
+    - title: Cross-debugging Kratos under Windows
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-cross-debug-Kratos-under-Windows.html
+      output: web
+    - title: Debugging Kratos C++ under Windows
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Debugging-Kratos-using-Visual-Studio.html
+      output: web
+    - title: Checking memory usage with Valgind
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Checking-memory-usage-with-Valgrind.html
+      output: web
+    - title: Profiling Kratos with MAQAO
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-profile-Kratos-using-MAQAO.html
+      output: web
+    - title: Creating unitary tests
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-create-unitary-tests.html
+      output: web
+    - title: Using ThreadSanitizer to detect OMP data race bugs
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-ThreadSanitizer-to-detect-OMP-data-race-bugs.html
+      output: web
+    - title: Debugging Memory with ASAN
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Debug-Memory-Using-ASAN.html
+      output: web
+
+  - title: HOW TOs
+
+    output: web
+    folderitems:
+    - title: How to create applications
+      url: pages/Creating-a-base-application.html
+      output: web
+    - title: Python Tutorials
+      url: pages/Python-Tutorials.html
+      output: web
+    - title: Kratos For Dummies (I)
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Kratos-For-Dummies:-Stationary-heat-transfer.html
+      output: web
+    - title: List of classes and variables accessible via python
+      url: pages/Kratos-classes-accesible-via-python.html
+      output: web
+    - title: How to use Logger
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Logger.html
+      output: web
+    - title: How to Create a New Application using cmake
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-Create-a-New-Application-using-cmake.html
+      output: web
+    - title: How to write a JSON configuration file
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-write-a-JSON-configuration-file.html
+      output: web
+    - title: How to Access DataBase
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-Access-DataBase.html
+      output: web
+    - title: How to use quaternions in Kratos
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-quaternions-in-Kratos.html
+      output: web
+    - title: How to do Mapping between nonmatching meshes
+      url: pages/How-to-do-Mapping-between-nonmatching-meshes.html
+      output: web
+    - title: How to use Clang-Tidy to automatically correct code
+      url: pages/How-to-use-Clang-Tidy-to-automatically-correct-code.html
+      output: web
+    - title: How to use the Constitutive Law class
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-the-Constitutive-Law-class.html
+      output: web
+    - title: How to use Serialization
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Serialization.html
+      output: web
+    - title: How to use GlobalPointerCommunicator
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-PointerCommunicator.html
+      output: web
+    - title: How to use PointerMapCommunicator
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-PointerMapCommunicator.html
+      output: web
+    - title: How to use the Geometry
+      url: pages/How-to-use-the-Geometry.html
+      output: web
+    - title: How to use processes for BCs
+      url: pages/How-to-use-Processes-In-the-application-of-BCs.html
+      output: web
+    - title: How to use Parallel Utilities in futureproofing the code
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Parallel-Utilities.html
+      output: web
+    - title: Porting to Pybind11 (LEGACY CODE)
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Porting-to-PyBind11---common-steps.html
+      output: web
+    - title: Porting to AMatrix
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Porting-to-AMatrix.html
+      output: web
+    - title: How to use Cotire
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Cotire.html
+      output: web
+    - title: Applications Python-modules
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/Applications-as-python-modules.html
+      output: web
+    - title: How to run multiple cases using PyCOMPSs
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/How-to-run-multiple-cases-using-PyCOMPSs.html
+      output: web
+    - title: How to apply a function to a list of variables
+      url: pages/How-to-apply-a-function-to-a-list-of-variables.html
+      output: web
+    - title: How to use Kratos Native sparse linear algebra
+      url: pages/Sparse-Linear-Algebra-(native-Kratos-implementation).html
+      output: web
+
+  - title: Utilities
+
+    output: web
+    folderitems:
+    - title: MMG remeshing process
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/[Utilities]-MMG-Process.html
+      output: web
+    - title: ParMMG remeshing process
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/%5BUtilities%5D-ParMmg-Process.html
+      output: web
+    - title: Model part colors utility
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/%5BUtilities%5D-Colors-utility.html
+      output: web
+
+  - title: Kratos API
+
+    output: web
+    folderitems:
+    - title: MultiPoint Constraint (MPC) interface
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/[KratosAPI]-MultiPoint-Constraint-(MPC)-interface.html
+      output: web
+
+  - title: Kratos Structural Mechanics API
+
+    output: web
+    folderitems:
+    - title: Documentation about the Constitutive Laws
+      url: pages/ https://github.com/KratosMultiphysics/Kratos/wiki/%5BKratosStructuralMechanicsAPI%5D-Constitutive-laws-in-Structural-Mechanics-Application.html
+      output: web
