@@ -1,3 +1,11 @@
+---
+title: Solving strategies
+keywords: 
+tags: [Solving-strategies.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Basic structure of the Python layer
 
 ## 1. Introduction

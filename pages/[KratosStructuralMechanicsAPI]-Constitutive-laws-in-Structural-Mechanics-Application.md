@@ -1,3 +1,11 @@
+---
+title: [KratosStructuralMechanicsAPI] Constitutive laws in Structural Mechanics Application
+keywords: 
+tags: [[KratosStructuralMechanicsAPI]-Constitutive-laws-in-Structural-Mechanics-Application.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 The objective of this text is to describe qualitatively the general framework developed in the **Structural Mechanics Application** related to the "**Constitutive Law**" problem in engineering. The main point of focus is the description of various constitutive models based on phenomenological hyperelasticity, elastoplasticity, damage, viscoelasticity and elasto-viscoplasticity.

@@ -1,3 +1,11 @@
+---
+title: Python Script  Hello Kratos
+keywords: 
+tags: [Python-Script-Tutorial:-Hello-Kratos.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The first step in writing a python script for *Kratos* is importing the KratosMultiphysics as follow:
 
 ```Python

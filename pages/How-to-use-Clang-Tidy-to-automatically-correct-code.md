@@ -1,3 +1,11 @@
+---
+title: Clang Tidy to automatically correct code
+keywords: 
+tags: [How-to-use-Clang-Tidy-to-automatically-correct-code.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Install 
 
 *Clang-Tidy* is a tool developed and maintained by the *Clang/LLVM* community. The official documentation can be found at [http://clang.llvm.org/extra/clang-tidy/](http://clang.llvm.org/extra/clang-tidy/). When running Linux, *clang-tidy* is usually easy to get via your distribution’s package manager. On Ubuntu Linux:

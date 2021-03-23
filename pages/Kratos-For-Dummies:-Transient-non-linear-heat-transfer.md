@@ -1,3 +1,11 @@
+---
+title: Kratos For Dummies: Transient non linear heat transfer
+keywords: 
+tags: [Kratos-For-Dummies:-Transient-non-linear-heat-transfer.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ![](https://i.gifer.com/3jnq.gif)
 
 # Overview

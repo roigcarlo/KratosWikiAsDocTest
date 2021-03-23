@@ -1,3 +1,11 @@
+---
+title: How to apply a function to a list of variables
+keywords: 
+tags: [How-to-apply-a-function-to-a-list-of-variables.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 Variables in Kratos can have different types. This makes them difficult to be used in a vector and passed to a function. The main difficulty is that the standard vector cannot hold entities with different types. On the other side, the VariablesList class can store variables with different types but you may access them as a VariableData which is the base class and does not have the type information needed to manipulate data.
 
 In fact, the [Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern) is the standard way to overcome such situation. The main idea behind this is to let each variable accept a function class (A.K.A functional) and then call the visit function of it using its known type. 

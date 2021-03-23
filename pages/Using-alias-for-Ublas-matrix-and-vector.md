@@ -1,3 +1,11 @@
+---
+title: Using alias for Ublas matrix and vector
+keywords: 
+tags: [Using-alias-for-Ublas-matrix-and-vector.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The first step to be taken in order to migrate from ublas dense matrix and vectors to AMatrix consists in use of Kratos alias for different matrix and vector classes of ublas doing the following replaces which are recommended to be done in following order:
 
 1. Replacing the `boost::numeric::ublas::vector` with `DenseVector`

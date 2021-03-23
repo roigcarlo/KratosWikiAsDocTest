@@ -1,3 +1,11 @@
+---
+title:  Creating the Element
+keywords: 
+tags: [Tutorial:-Creating-the-Element.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Overview
 
 As we wrote in the previous section, the files describing our element will be placed in the folder `custom_elements` , with names: `my_laplacian_element.h` and `my_laplacian_element.cpp`. The names of the subroutines are self-explanatory so their use is easy to understand. 

@@ -1,3 +1,11 @@
+---
+title: How to Create a New Application using cmake
+keywords: 
+tags: [How-to-Create-a-New-Application-using-cmake.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 This method is outdated. Please go to https://github.com/KratosMultiphysics/Kratos/wiki/Creating-a-base-application for the newer version of creating a new application.

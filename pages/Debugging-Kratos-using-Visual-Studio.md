@@ -1,3 +1,11 @@
+---
+title: Debugging Kratos using Visual Studio
+keywords: 
+tags: [Debugging-Kratos-using-Visual-Studio.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Debugging Kratos using Visual Studio
 As Kratos runs using Python scripts the debugging process using Visual Studio may be a bit different of what a normal user may be used to. You have two different known ways to be able to debug your code: Cross Debugging Python or debugging directly the C++ part. This page will focus in the second option. You can find a dedicated page of the wiki for cross debugging [here](https://github.com/KratosMultiphysics/Kratos/wiki/How-to-cross-debug-Kratos-under-Windows).
 

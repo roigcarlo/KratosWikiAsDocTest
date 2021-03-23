@@ -1,3 +1,11 @@
+---
+title: Windows Install (MinGW)
+keywords: 
+tags: [Windows-Install-(MinGW).md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 In this section we are going to go through the process of compiling a basic version of Kratos Multiphysics under Windows environments with MinGW. The process is something in between the compilation in Linux and in Windows using Visual Studio.
 
 _Please notice that this guide is introductory and many of the steps and software used here can be customized. The only hard restriction is to use a C++11 compatible compiler._

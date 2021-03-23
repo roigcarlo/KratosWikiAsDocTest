@@ -1,3 +1,11 @@
+---
+title: How to generate python wheels
+keywords: 
+tags: [How-to-generate-python-wheels.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Package metadata
 It is possible go define package-specific metadata, like author, author email, description, README file. 
 To do that, edit wheel definitions in `scripts/wheels/<platform>/applications/<application_name>.json` in the Kratos repository.

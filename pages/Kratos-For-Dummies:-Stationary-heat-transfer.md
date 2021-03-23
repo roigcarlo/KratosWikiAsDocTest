@@ -1,3 +1,11 @@
+---
+title: Kratos For Dummies: Stationary heat transfer
+keywords: 
+tags: [Kratos-For-Dummies:-Stationary-heat-transfer.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 As explained in the [home page](https://github.com/KratosMultiphysics/Kratos/wiki), the _Kratos_ framework is oriented towards finite element modelling. This is a major advantage when creating standard finite element formulations. In these cases, _Kratos_ will provide most of the tedious code necessary, such as assembling the matrices, solving the system, printing the results in a file, and other task that would probably be more time consuming than transcribing the formulation itself into programming code. The aim of this tutorial is to describe step by step the implementation of a really simple element using as much as possible all these tools provided by _Kratos_. This way, we'll only have to create the element, boundary conditions and then tell _Kratos_ that our problem type is a standard **FEM**. At first the code might seem a little scary but we'll try to explain the lines as much as possible. Let's begin!

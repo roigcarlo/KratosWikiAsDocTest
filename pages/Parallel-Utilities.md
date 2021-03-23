@@ -1,3 +1,11 @@
+---
+title: Parallel Utilities
+keywords: 
+tags: [Parallel-Utilities.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Parallel Utilities
 The landscape of parallelization within C++ is currently undergoing a change, as since C++11 the language is acquiring a set of standard extensions which aim to rival with OpenMP.
 We propose a number of utilities which should simplify the parallelization of loops by using C++11 lambda syntax.

@@ -1,3 +1,11 @@
+---
+title: Home
+keywords: 
+tags: [Home.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ![](https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png)
 
 # What is Kratos?

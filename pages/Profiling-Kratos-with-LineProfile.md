@@ -1,3 +1,11 @@
+---
+title: Profiling Kratos with LineProfile
+keywords: 
+tags: [Profiling-Kratos-with-LineProfile.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Profiling Kratos with LineProfile
 
 This page details the steps to follow in order to profile Kratos with a python line profiler. Please be aware that this is an intrusive process, and you will have to modify some of your code.

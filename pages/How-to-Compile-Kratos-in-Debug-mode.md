@@ -1,3 +1,11 @@
+---
+title: How to Compile Kratos in Debug mode
+keywords: 
+tags: [How-to-Compile-Kratos-in-Debug-mode.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Build modes for debugging Kratos Multiphysics
 
 Kratos Multiphysics supports different build modes that can be used to debug your code, at the cost of increased run time. The build mode is defined by the `CMAKE_BUILD_TYPE` configure variable. The following options are supported, ordered from faster (less detailed debug information) to slower (all info):

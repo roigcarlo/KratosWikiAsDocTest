@@ -1,3 +1,11 @@
+---
+title: "Smart Pointers" within Kratos
+keywords: 
+tags: [How-to-use-"Smart-Pointers"-within-Kratos.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 All the memory management within Kratos is done through "Shared Pointers". Essentially a shared pointer _is an entity which holds a counter with the number of existing instances of an object_. **EVERY TIME** a new Shared Pointer is created such counter is incremented or decremented to represent the number of living instances of the object pointed to.

@@ -1,3 +1,11 @@
+---
+title: Python Script  Reading ModelPart From Input File
+keywords: 
+tags: [Python-Script-Tutorial:-Reading-ModelPart-From-Input-File.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The `ModelPart` represents an arbitrary part of the `Model` to be simulated and stores the mesh and additional data for it. Most of the *Kratos* routines take a `ModelPart` as their argument. So always is necessary to create and fill a `ModelPart`. In this tutorial we will describe how to create and fill a model part from given input file.
 
 # Setup

@@ -1,3 +1,11 @@
+---
+title: Mesh node ordering
+keywords: 
+tags: [Mesh-node-ordering.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 The node ordering followed by *Kratos* is the very same considered by the pre/post-processor [*GiD*](www.gidhome.com). You can see the notation considered by them [here](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_11.html).

@@ -1,3 +1,11 @@
+---
+title: How to Access DataBase
+keywords: 
+tags: [How-to-Access-DataBase.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Content
 * [Overview][overview]
 * [Nodal database][nodal]

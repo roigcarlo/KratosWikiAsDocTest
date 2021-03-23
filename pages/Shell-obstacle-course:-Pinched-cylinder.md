@@ -1,3 +1,11 @@
+---
+title: Shell obstacle course: Pinched cylinder
+keywords: 
+tags: [Shell-obstacle-course:-Pinched-cylinder.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The linear static pinched cylinder test considers a cylindrical shell fixed by rigid diaphragms at it's axial ends. The loading consists of two opposing compressive point loads at the center of the shell. Isotropic material properties are as per the figure below. Due to symmetry only an eighth of the shell is modeled. 
 

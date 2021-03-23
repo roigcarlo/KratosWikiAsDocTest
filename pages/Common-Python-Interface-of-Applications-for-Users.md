@@ -1,3 +1,11 @@
+---
+title: Common Python Interface of Applications for Users
+keywords: 
+tags: [Common-Python-Interface-of-Applications-for-Users.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 1. [Introduction](https://github.com/KratosMultiphysics/Kratos/wiki/Common-Python-Interface-of-Applications-for-Users#introduction)
 2. [AnalysisStage](https://github.com/KratosMultiphysics/Kratos/wiki/Common-Python-Interface-of-Applications-for-Users#analysisstage)

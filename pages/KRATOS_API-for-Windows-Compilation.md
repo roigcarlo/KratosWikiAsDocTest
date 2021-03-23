@@ -1,3 +1,11 @@
+---
+title: KRATOS_API for Windows Compilation
+keywords: 
+tags: [KRATOS_API-for-Windows-Compilation.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 Kratos windows compilation is done via Microsoft Visual C++ compiler. Therefore when developement is done in C++ level, if some one has declarations in header file and definitions in `cpp` files, then followings need to considered.
 
 # Classes

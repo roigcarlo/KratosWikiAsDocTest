@@ -1,3 +1,11 @@
+---
+title: Porting to AMatrix
+keywords: 
+tags: [Porting-to-AMatrix.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 This page provides a list of common changes for migration from ublas to AMatrix
 
 ## Compiling

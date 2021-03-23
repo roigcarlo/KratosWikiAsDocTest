@@ -1,3 +1,11 @@
+---
+title: Shell obstacle course: Scordelis Lo roof
+keywords: 
+tags: [Shell-obstacle-course:-Scordelis-Lo-roof.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The linear static Scordelis-Lo roof test considers a section of cylindrical shell fixed by rigid diaphragms at it's axial ends subject to a pseudo-gravity distributed load of a magnitude 90. Isotropic material properties are as per the figure below. Due to symmetry, only a quarter of the shell is modeled. 
 

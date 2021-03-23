@@ -1,3 +1,11 @@
+---
+title: Cotire
+keywords: 
+tags: [How-to-use-Cotire.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # What is Cotire?
 
 [Cotire](https://github.com/sakra/cotire) (compile time reducer) is a CMake module that speeds up the build process of CMake based build systems by fully automating techniques as precompiled header usage and single compilation unit builds for C and C++.

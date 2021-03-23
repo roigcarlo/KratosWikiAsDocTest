@@ -1,3 +1,11 @@
+---
+title: How to cross debug Kratos under Windows
+keywords: 
+tags: [How-to-cross-debug-Kratos-under-Windows.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Cross debugging (Python and C++) of Kratos under Windows
 The presented development environment allows to cross debug Kratos (Phyton and C++). In addition, it is possible to easily switch between the _Debug_ and _Release_ configuration. Moreover some hints how to bypass common errors in setting up Kratos under Windows (see also [Windows Install](https://github.com/KratosMultiphysics/Kratos/wiki/Windows-Install)) are provided.
 

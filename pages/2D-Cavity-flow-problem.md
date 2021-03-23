@@ -1,3 +1,11 @@
+---
+title: 2D Cavity flow problem
+keywords: 
+tags: [2D-Cavity-flow-problem.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 
 This is a 2D CFD simulation of the well known lid-driven cavity flow problem. The reference solution has been taken from  Marchi et. al. (2009), The following applications of Kratos are used:
 * MeshingApplication

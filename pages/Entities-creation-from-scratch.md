@@ -1,3 +1,11 @@
+---
+title: Entities creation from scratch
+keywords: 
+tags: [Entities-creation-from-scratch.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Entities creation from scratch
 
 Here we present the interface in order to create new entities in an empty model from *Python*.

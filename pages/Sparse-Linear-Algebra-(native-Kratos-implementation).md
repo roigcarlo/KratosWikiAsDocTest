@@ -1,3 +1,11 @@
+---
+title: Sparse Linear Algebra (native Kratos implementation)
+keywords: 
+tags: [Sparse-Linear-Algebra-(native-Kratos-implementation).md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 WORK IN PROGRESS
 
 The Kratos prvides a basic implementation of sparse linear algebra. The implementation is designed to ease FEM operations and to provide a similar interface both in the SMP and MPI case.

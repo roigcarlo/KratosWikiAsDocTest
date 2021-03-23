@@ -1,3 +1,11 @@
+---
+title: Logger
+keywords: 
+tags: [How-to-use-Logger.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The logging system in Kratos has 3 important parts:
 - `LoggerMessage` a data class storing the message with some attributes like label, category, severity
 - `Logger` is a singleton object in charge of gathering all messages produced in the code and passing them to the outputs

@@ -1,3 +1,11 @@
+---
+title: Multiphysics example
+keywords: 
+tags: [Multiphysics-example.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # **Multiphysics example**
 
 ## Objective

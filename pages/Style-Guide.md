@@ -1,3 +1,11 @@
+---
+title: Style Guide
+keywords: 
+tags: [Style-Guide.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Repository
 
 ## Workflow

@@ -1,3 +1,11 @@
+---
+title: Getting Kratos Binaries for Windows
+keywords: 
+tags: [Getting-Kratos-Binaries-for-Windows.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 This page covers the process of downloading a compiled version of Kratos for Windows and how to use it to run an example. 
 
 ## Minimum requirements 

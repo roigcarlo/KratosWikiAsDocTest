@@ -1,3 +1,11 @@
+---
+title: Shell obstacle course: Pinched hemisphere
+keywords: 
+tags: [Shell-obstacle-course:-Pinched-hemisphere.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The linear static pinched hemisphere test considers a hemispherical shell loaded with opposing point loads along it's equator. Isotropic material properties are as per the figure below. Due to symmetry only a quarter of the shell is modeled. 
 

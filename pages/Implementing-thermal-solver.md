@@ -1,3 +1,11 @@
+---
+title: Implementing thermal solver
+keywords: 
+tags: [Implementing-thermal-solver.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The following tutorial will explain how to **implement a `Solver` from scratch**, in this case applied to the particular case of the *thermal problem*, following the lines of the already presented on the other tutorials. We will skip the most advanced points of the construction of the `Solver` and we will create a **basic working solver** for the sake of academic purposes, so the resulting file will not coincide with the real solver on the [repository](https://github.com/KratosMultiphysics/Kratos/blob/Release-6.0/applications/convection_diffusion_application/python_scripts/convection_diffusion_base_solver.py). 
 
 # Imports 

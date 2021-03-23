@@ -1,3 +1,11 @@
+---
+title: Debugging Kratos using GDB
+keywords: 
+tags: [Debugging-Kratos-using-GDB.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Debugging Kratos using GDB
 This page details the process of debugging Kratos with GDB. The guide is intended for Linux systems using a terminal, if you prefer to debug on Windows or through gdb using externals tools like visual studio code we have some pages detailing those processes as well (see https://github.com/KratosMultiphysics/Kratos/wiki/How-to-cross-debug-Kratos-under-Windows or https://github.com/KratosMultiphysics/Kratos/wiki/Debugging-Kratos-using-Visual-Studio)
 

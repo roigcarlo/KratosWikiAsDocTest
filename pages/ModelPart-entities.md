@@ -1,3 +1,11 @@
+---
+title: ModelPart entities
+keywords: 
+tags: [ModelPart-entities.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Starting
 First of all we need to create a python file with following code to import the *Kratos*, create a `ModelPart` and read it from input as described in the here :
 

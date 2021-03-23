@@ -1,3 +1,11 @@
+---
+title: Composite clamped cylinder
+keywords: 
+tags: [Composite-clamped-cylinder.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The linear static orthotropic composite clamped cylinder test considers a cylinder clamped at both ends subject to internal pressure. A cylinder of length a = 20, radius R = 20 and total laminate thickness of h = 1 is subject to a uniform internal pressure of p_0 = (6410/π) [1]. The system is setup as follows:
 

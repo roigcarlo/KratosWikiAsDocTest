@@ -1,3 +1,11 @@
+---
+title: Formfinding and Membrane Analysis
+keywords: 
+tags: [Formfinding-and-Membrane-Analysis.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 This page descibes the simulation of prestressed membranes (isotropic and anisotropic) for analysis and formfinding which is implemented in the StructuralMechanicsApplication. The implentation is based on the following sources:
 * [Numerical Methods for the Design and Analysis of Tensile Structures, Falko Hartmut Dieringer](https://mediatum.ub.tum.de/doc/1197480/880619.pdf)
 *  [Mechanik und Numerik der Formfindung und Fluid-Struktur-Interaktion von Membrantragwerken, Roland Wüchner](https://mediatum.ub.tum.de/doc/601102/601102.pdf)

@@ -1,3 +1,11 @@
+---
+title: Serialization
+keywords: 
+tags: [How-to-use-Serialization.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 <!---
 Note : I am using some HTML commands to get bold code
 -->

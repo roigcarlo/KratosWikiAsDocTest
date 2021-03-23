@@ -1,3 +1,11 @@
+---
+title: the FEAST Solver in Kratos?
+keywords: 
+tags: [How-to-use-the-FEAST-Solver-in-Kratos?.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The [FEAST Solver](http://www.ecs.umass.edu/~polizzi/feast/) is used for solving an eigenvalue problem. It is based on a new algorithm which deviates fundamentally from the _Krylov_ subspace based techniques (_Arnoldi_ and _Lanczos_ algorithms), Davidson-Jacobi techniques or other traditional subspace iteration techniques
 
    > E. Polizzi, Density-Matrix-Based Algorithms for Solving Eigenvalue Problems, Phys. Rev. B. Vol. 79, 115112 (2009)

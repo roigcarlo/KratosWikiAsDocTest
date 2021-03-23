@@ -1,3 +1,11 @@
+---
+title: Composite hinged cylindrical roof snapthrough
+keywords: 
+tags: [Composite-hinged-cylindrical-roof-snapthrough.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 In the static geometrically non-linear composite hinged cylindrical roof snapthrough test, the [isotropic hinged cylindrical roof snapthrough](https://github.com/KratosMultiphysics/Kratos/wiki/Hinged-cylindrical-roof-snapthrough)
 test is identically repeated with an orthotropic laminate material. The composite laminate of total thickness h = 12.7mm is composed of orthotropic laminae with the following properties:

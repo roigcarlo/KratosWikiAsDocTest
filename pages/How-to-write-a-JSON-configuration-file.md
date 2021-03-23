@@ -1,3 +1,11 @@
+---
+title: How to write a JSON configuration file
+keywords: 
+tags: [How-to-write-a-JSON-configuration-file.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Overview
 
 As complexity increases one needs more and more flexibility in “configuring” a simulation. This is typically achieved by defining a "configuration file" which organizes all of the "user instructions" to be used in the configuration of the solver. 

@@ -1,3 +1,11 @@
+---
+title: Processes In the application of BCs
+keywords: 
+tags: [How-to-use-Processes-In-the-application-of-BCs.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Description of Main Processes for the application of boundary conditions
 
 Kratos implements a few processes for the application of boundary conditions, which make an attempt to cover the most common user cases.

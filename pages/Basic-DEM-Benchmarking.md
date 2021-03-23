@@ -1,3 +1,11 @@
+---
+title: Basic DEM Benchmarking
+keywords: 
+tags: [Basic-DEM-Benchmarking.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Benchmark definition
 The DEM Benchmarks consist of a set of 9 simple tests which are run every night and whose object is to make sure both that the application performs correctly and that the code did not break after the daily changes. They are the following:
 

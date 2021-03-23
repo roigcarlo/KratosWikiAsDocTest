@@ -1,3 +1,11 @@
+---
+title: Kratos classes accesible via python
+keywords: 
+tags: [Kratos-classes-accesible-via-python.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Introduction
 
 The following tries to be a non-exhaustive list of classes and variables, and their respective methods, accessible via the *Kratos* interface. The objective of this is avoid the need  to look directly on the code to see which methods and classes, and with which name, are exported to the *Python* interface. This will make easier to new (and no so new) users to make contact with the *Kratos* structure and be able to start with the their developments.

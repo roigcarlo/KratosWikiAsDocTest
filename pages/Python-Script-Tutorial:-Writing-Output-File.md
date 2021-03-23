@@ -1,3 +1,11 @@
+---
+title: Python Script  Writing Output File
+keywords: 
+tags: [Python-Script-Tutorial:-Writing-Output-File.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 In this tutorial the procedure for writing the mesh and data from a `ModelPart` to output files will be described briefly. More information can be found here
 
 # Starting

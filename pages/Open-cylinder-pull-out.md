@@ -1,3 +1,11 @@
+---
+title: Open cylinder pull out
+keywords: 
+tags: [Open-cylinder-pull-out.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The problem considered is the static geometrically non-linear pull-out of an open cylinder with a load P = 40,000. The geometry of the cylinder is defined by: L= 10.35, R = 4.953 and h = 0.094, while the isotropic linear elastic material is characterized by E = 10.5E6 and ν = 0.3125. 
 

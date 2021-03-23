@@ -1,3 +1,11 @@
+---
+title: Nodes and Nodal Data
+keywords: 
+tags: [Nodes-and-Nodal-Data.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Nodes and Nodal Data
 
 In this tutorial the access to the nodes stored in a `ModelPart` and their nodal data will be described. More information about nodes and nodal data can be found here.

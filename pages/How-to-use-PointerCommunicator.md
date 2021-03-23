@@ -1,3 +1,11 @@
+---
+title: PointerCommunicator
+keywords: 
+tags: [How-to-use-PointerCommunicator.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 Kratos provides a data proxy mechanism, based on the use of "GlobalPointers" to simplify communications involving non local data.
 To understand the mechanism, let's consider a local loop to take the average of neighbours nodes for each node.
 In serial it looks something like

@@ -1,3 +1,11 @@
+---
+title:  Creating the Python Solver file
+keywords: 
+tags: [Tutorial:-Creating-the-Python-Solver-file.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The purpose of this file is to act as an interface between your problem's script (also in python) file and the Kratos functions. We will create a class and functions already customized for our type of problem, so that the calls required in the .py from the problem become simpler. The file should be in the `/MyLaplacianApplication/python_scripts` folder.
 
 ## pure_diffusion_solver.py  

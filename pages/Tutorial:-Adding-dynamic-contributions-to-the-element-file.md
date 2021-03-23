@@ -1,3 +1,11 @@
+---
+title:  Adding dynamic contributions to the element file
+keywords: 
+tags: [Tutorial:-Adding-dynamic-contributions-to-the-element-file.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 Here we add the corresponding dynamic contributions to `MyLaplacianElement`.

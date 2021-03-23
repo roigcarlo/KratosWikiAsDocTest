@@ -1,3 +1,11 @@
+---
+title: How to interact with a simulation to visualize real time results
+keywords: 
+tags: [How-to-interact-with-a-simulation-to-visualize-real-time-results.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 This tutorial introduces one alternative for effectively interacting with a Kratos simulation to modify some of its parameters and observe the effect of such a modification on the results in real-time. Admittedly, this can be achived for any of the simulations available in Kratos, however, it is particularly suitable for fast simulations, like the ones achived by using Reduced Order Models ROM. Therefore, this tutorial focuses on an example using the RomApplication. The Python module vedo is used for the interactive visualization.
 

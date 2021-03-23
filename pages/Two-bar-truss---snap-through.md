@@ -1,3 +1,11 @@
+---
+title: Two bar truss   snap through
+keywords: 
+tags: [Two-bar-truss---snap-through.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 To demonstrate the ability of the non-linear truss element to describe geometric non-linearities the following symmetry of a two bar truss is investigated:
 

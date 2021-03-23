@@ -1,3 +1,11 @@
+---
+title: API for RomApplication (draft to be moved elsewhere
+keywords: 
+tags: [API-for-RomApplication-(draft-to-be-moved-elsewhere.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The RomApplication expects a basis matrix <a href="https://www.codecogs.com/eqnedit.php?latex=\color{Black}\bold{{\Phi}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\color{Black}\bold{{\Phi}}" title="\color{Black}\bold{{\Phi}}" /></a> (obtained for example from a POD procedure or using Modal Derivatives) with as many rows as degrees of freedom times the number of nodes, and as many columns as representative modes are being consired
 
 ![basis]

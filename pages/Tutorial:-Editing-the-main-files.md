@@ -1,3 +1,11 @@
+---
+title:  Editing the main files
+keywords: 
+tags: [Tutorial:-Editing-the-main-files.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Overview
 
 In the main files of our application: my_laplacian_application.h and my_laplacian_application.cpp we will have to include the code describing our element and condition and tell _Kratos_ how to use it. The original files created in the previous section require some minor modifications, which are explained below: 

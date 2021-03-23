@@ -1,3 +1,11 @@
+---
+title: Using processes to customize a simulation
+keywords: 
+tags: [Using-processes-to-customize-a-simulation.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Using `Kratos::Process` to customize a simulation
 Kratos offers many ways of customizing the behavior of simulations. One way is to use [`Kratos::Process`](https://github.com/KratosMultiphysics/Kratos/blob/master/kratos/processes/process.h), either from 
 * KratosCore

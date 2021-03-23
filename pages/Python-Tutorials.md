@@ -1,3 +1,11 @@
+---
+title: Python Tutorials
+keywords: 
+tags: [Python-Tutorials.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Basics
 This part describes the basic building blocks of Kratos Python scripting in following steps:
 * [Getting Started](https://github.com/KratosMultiphysics/Kratos/wiki/Python-Script-Tutorial:-Getting-Started)

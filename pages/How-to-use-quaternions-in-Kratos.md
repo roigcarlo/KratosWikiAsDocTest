@@ -1,3 +1,11 @@
+---
+title: quaternions in Kratos
+keywords: 
+tags: [How-to-use-quaternions-in-Kratos.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Description
 The Quaternion is a Kratos utility class used to represent 3D orientations and rotations, as an efficient and robust alternative to other representations such as Euler angles or rotation matrices. A Quaternion is represented in the form:  
 _w_ + _x**i**_ + _y**j**_ + _z**k**_  

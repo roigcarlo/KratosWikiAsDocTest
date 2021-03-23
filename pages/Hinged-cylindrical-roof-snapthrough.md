@@ -1,3 +1,11 @@
+---
+title: Hinged cylindrical roof snapthrough
+keywords: 
+tags: [Hinged-cylindrical-roof-snapthrough.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 The problem considered is the static geometrically non-linear snap-through of a hinged cylindrical roof under a central point load P = 3000 according to [1]. As per the diagram below, the roof geometry is defined with the parameters: L = 254, R = 2540, theta = 0.1 rad and h = 12.7. The isotropic material is defined by a Young's modulus of E = 3102.75 and Poisson's ratio of ν = 0.3.
 

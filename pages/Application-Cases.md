@@ -1,3 +1,11 @@
+---
+title: Application Cases
+keywords: 
+tags: [Application-Cases.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Application cases
 In this page some common benchmark cases solved with Kratos Multiphysics are collected. In each one of the links below a short description of the test together with the obtained results, compared against the reference solution if it is available, can be found.
 

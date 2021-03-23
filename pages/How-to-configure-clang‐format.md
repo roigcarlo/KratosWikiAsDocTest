@@ -1,3 +1,11 @@
+---
+title: How to configure clang‐format
+keywords: 
+tags: [How-to-configure-clang‐format.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 _clang-format_ is an utility to format source code in several languages according to predefined settings.
 Settings for auto-formatting of C++ source files in Kratos are summarized below, and should be saved in _.clang-format_ file in the Kratos root directory. These settings are chosen to closely match the formatting style used in Kratos.

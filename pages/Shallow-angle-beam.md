@@ -1,3 +1,11 @@
+---
+title: Shallow angle beam
+keywords: 
+tags: [Shallow-angle-beam.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Problem definition
 As the effect of bending on the shorting of the beam element is not included in the underlying co-rotational beam theory, the following example shows, how this effect can be modeled with the help of multiple beam elements. For that purpose the following shallow angled beam is investigated:
 

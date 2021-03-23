@@ -1,3 +1,11 @@
+---
+title: Linux Build
+keywords: 
+tags: [Linux-Build.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # How to compile Kratos:
 
 You can find latest Kratos compilation instructions in [Install.md](https://github.com/KratosMultiphysics/Kratos/blob/master/INSTALL.md)

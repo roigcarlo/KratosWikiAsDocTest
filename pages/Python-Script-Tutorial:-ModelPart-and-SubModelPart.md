@@ -1,3 +1,11 @@
+---
+title: Python Script  ModelPart and SubModelPart
+keywords: 
+tags: [Python-Script-Tutorial:-ModelPart-and-SubModelPart.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 In the previous part of the tutorial, we already saw how the `ModelPart` is the object containing `Element`, `Conditions`, `Nodes` and `Properties`.
 
 A fundamental feature is that it can also hierarchically contain **"SubModelParts"** intended as other `ModelParts` which belong to the same parent. This relation can be repeated recursively, so that each "root" `ModelPart` can actually own a tree of SubModelParts.

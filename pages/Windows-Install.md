@@ -1,3 +1,11 @@
+---
+title: Windows Install
+keywords: 
+tags: [Windows-Install.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # How to compile Kratos:
 
 You can find updated instructions to compile kratos in the [Install.md](https://github.com/KratosMultiphysics/Kratos/blob/master/INSTALL.md)

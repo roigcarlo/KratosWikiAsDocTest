@@ -1,3 +1,11 @@
+---
+title: Local axes orientation
+keywords: 
+tags: [Local-axes-orientation.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The purpose of the current page is to describe the convention employed in the definition of local axes within _Kratos_.
 This is designed in particular for the "structural" case, consisting in Beams, Shells and Solid elements, however the same conventions shall be employed in other fields when applicable.
 

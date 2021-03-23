@@ -1,3 +1,11 @@
+---
+title:  Creating the Conditions
+keywords: 
+tags: [Tutorial:-Creating-the-Conditions.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Overview
  
 What you need to understand of these lines

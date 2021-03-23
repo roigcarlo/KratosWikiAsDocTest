@@ -1,3 +1,11 @@
+---
+title: Python Script  Reading ProjectParameters
+keywords: 
+tags: [Python-Script-Tutorial:-Reading-ProjectParameters.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The *Kratos* `Parameters` object is a container based on the well known *JavaScript Object Notation* (**JSON**) standard. Even though it can contain any type of key-value information, in *Kratos* it is used to contain configuration settings for solvers, processes or utilities. 
 
 In this tutorial, the use of the **JSON** format together with the *Kratos* `Parameters` class is reviewed using a standard *Kratos* simulation configuration file (`ProjectParameters.json`), in this case coming from the  `FluidDynamicsApplication`, as example.

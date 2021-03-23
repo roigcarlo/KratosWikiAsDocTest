@@ -1,3 +1,11 @@
+---
+title: Example: A simple Fluid   Thermal coupled solver
+keywords: 
+tags: [Example:-A-simple-Fluid---Thermal-coupled-solver.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 Let's consider we wish to solve a simple fluid-thermal problem in which the velocity field obtained by a **CFD** analysis is to be employed as a basis in the related *thermal convection-diffusion* problem. You can download the example [here](https://github.com/KratosMultiphysics/Documentation/raw/master/Wiki_files/Example:-A-simple-Fluid-Thermal-solver/coupled_thermal_cylinder.gid.zip).
 
 Conceptually, the problem is a very simple one-way coupled problem, in which the temperature *convection-diffusion* problem is governed by the fluid flow. Provided that the same mesh is employed in the same domain, we would expect the solution to be equivalent to doing:

@@ -1,3 +1,11 @@
+---
+title:  Analysis stage for pure diffusion problem
+keywords: 
+tags: [Tutorial:-Analysis-stage-for-pure-diffusion-problem.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 In order to create a analysis stage we should follow the structure designed by the *Kratos* team. The base python interface can be found in *Kratos/kratos/python_scripts/analysis_stage.py*.

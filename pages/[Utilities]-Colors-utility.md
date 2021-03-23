@@ -1,3 +1,11 @@
+---
+title: [Utilities] Colors utility
+keywords: 
+tags: [[Utilities]-Colors-utility.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Content
 * [What is the colors utility][what]
 * [Functions provided by this utility][functions]

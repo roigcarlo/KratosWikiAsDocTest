@@ -1,3 +1,11 @@
+---
+title: the PaStiX solver in Kratos
+keywords: 
+tags: [How-to-use-the-PaStiX-solver-in-Kratos.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Contents
 1. [How to use the PaStiX solver in Kratos:][pastix1]
     1. [Compile the Scotch library (shared memory parallelism)][pastix1a]

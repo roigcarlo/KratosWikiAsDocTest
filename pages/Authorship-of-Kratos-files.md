@@ -1,3 +1,11 @@
+---
+title: Authorship of Kratos files
+keywords: 
+tags: [Authorship-of-Kratos-files.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The following guidelines defined by the **Technical committee** describe the practices related with the authorship of the files edited by the developers.
 
 - We believe that **someone who contributed a new code feature is the author of that**.

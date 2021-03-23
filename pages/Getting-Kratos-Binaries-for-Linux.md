@@ -1,3 +1,11 @@
+---
+title: Getting Kratos Binaries for Linux
+keywords: 
+tags: [Getting-Kratos-Binaries-for-Linux.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 This page covers the process of downloading a compiled version of Kratos for Linux and how to use it to run an example. 
 
 ## Minimum requirements

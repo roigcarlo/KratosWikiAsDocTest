@@ -1,3 +1,11 @@
+---
+title: Creating a base application
+keywords: 
+tags: [Creating-a-base-application.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Quick start
 
 For more advanced use cases in Kratos you will probably want to create a custom application that better adapts to your necessities. In this section we will review the process of creating a simple empty application and how to integrate it with Kratos so you can start your development. In following tutorials, you will find how to add content to this application and a more detailed view of its parts.

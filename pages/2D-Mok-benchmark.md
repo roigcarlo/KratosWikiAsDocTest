@@ -1,3 +1,11 @@
+---
+title: 2D Mok benchmark
+keywords: 
+tags: [2D-Mok-benchmark.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 
 This is a 2D FSI simulation of the Mok benchmark test. It consists in a 2D convergent fluid channel that contains a flexible wall structure attached to its bottom wall. The main challenge of the test is that the densities of the fluid and the structure have similar order of magnitude, leading to a strongly coupled problem in where large interaction between the two fields appears. The reference solutions have been taken from  Mok (2001) and Valdés (2007). The following applications of Kratos are used:
 * ALEApplication

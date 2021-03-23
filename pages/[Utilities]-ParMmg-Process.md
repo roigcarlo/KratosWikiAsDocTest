@@ -1,3 +1,11 @@
+---
+title: [Utilities] ParMmg Process
+keywords: 
+tags: [[Utilities]-ParMmg-Process.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Introduction
 
 ParMMG is the MPI parallel version of the remeshing library MMG. In order to use ParMmg, please checkout the guide on how to install and use MMG first:

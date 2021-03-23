@@ -1,3 +1,11 @@
+---
+title: Python Script  ModelPart Elements and Conditions
+keywords: 
+tags: [Python-Script-Tutorial:-ModelPart-Elements-and-Conditions.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The elements and conditions are the main extension points of the *Kratos*. In input script accessing them improves the flexibility in dealing with complex problems.
 
 # Starting

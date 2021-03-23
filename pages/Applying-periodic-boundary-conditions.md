@@ -1,3 +1,11 @@
+---
+title: Applying periodic boundary conditions
+keywords: 
+tags: [Applying-periodic-boundary-conditions.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 In KratosMultiphysics, application of periodic boundary conditions can be done using the `apply_periodic_condition_process`. This process uses linear master-slave constraints to apply a periodic condition between the specified boundary (sub)modelparts. 
 
 An example entry for such a process in the the processes list in the `ProjectParameters.json` is given below. 

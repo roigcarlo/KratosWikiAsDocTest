@@ -1,3 +1,11 @@
+---
+title: Data management
+keywords: 
+tags: [Data-management.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Data management tutorial
 
 In this tutorial will be introduced how manipulating a model from *Python*. Iterating over mesh nodes, elements and conditions. Generating ModelParts and SubModelParts and assigning entities to them.

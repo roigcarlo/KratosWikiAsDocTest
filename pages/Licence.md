@@ -1,3 +1,11 @@
+---
+title: Licence
+keywords: 
+tags: [Licence.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Kratos Multi-Physics
 
 Copyright (c) 2016, Pooyan Dadvand, Riccardo Rossi, CIMNE (International Center for Numerical Methods in Engineering)

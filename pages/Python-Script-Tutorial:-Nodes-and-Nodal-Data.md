@@ -1,3 +1,11 @@
+---
+title: Python Script  Nodes and Nodal Data
+keywords: 
+tags: [Python-Script-Tutorial:-Nodes-and-Nodal-Data.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 In this tutorial the access to the nodes stored in a `ModelPart` and their nodal data will be described. More information about nodes and nodal data can be found here.
 
 # Starting

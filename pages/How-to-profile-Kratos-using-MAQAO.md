@@ -1,3 +1,11 @@
+---
+title: How to profile Kratos using MAQAO
+keywords: 
+tags: [How-to-profile-Kratos-using-MAQAO.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 MAQAO is a lightweight tool which is useful for analyzing the quality of binary code and identifying hotspots. It is available at [www.maqao.org](http://www.maqao.org/). MAQAO can be used for any build type, but it provides more detailed information when debugging symbols are available.
 

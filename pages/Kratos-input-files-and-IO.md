@@ -1,3 +1,11 @@
+---
+title: Kratos input files and IO
+keywords: 
+tags: [Kratos-input-files-and-IO.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # 1. Introduction
 
 In the first tutorial you have successfully used Kratos to solve a few simple problems. The GiD preprocessor was used to create the input files for Kratos. There are three different types of files that compose a Kratos case:

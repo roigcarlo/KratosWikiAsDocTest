@@ -1,3 +1,11 @@
+---
+title: Porting to PyBind11   common steps
+keywords: 
+tags: [Porting-to-PyBind11---common-steps.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Modifications in the CMakeLists.txt
 *Pybind11* comes with a module to help compilation. Such module should be included at the beginning of the CMakeLists.txt by adding:
 

@@ -1,3 +1,11 @@
+---
+title: How to run multiple cases using PyCOMPSs
+keywords: 
+tags: [How-to-run-multiple-cases-using-PyCOMPSs.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 This tutorial gives a brief but exhaustive overview about the integration of PyCOMPSs inside the Kratos environment in order to launch multiple cases of a problem concurrently.
 

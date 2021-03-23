@@ -1,3 +1,11 @@
+---
+title: Manipulating solution values
+keywords: 
+tags: [Manipulating-solution-values.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # **Manipulating solution values**
 
 ## Objective

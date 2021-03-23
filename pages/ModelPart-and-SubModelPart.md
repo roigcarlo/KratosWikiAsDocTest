@@ -1,3 +1,11 @@
+---
+title: ModelPart and SubModelPart
+keywords: 
+tags: [ModelPart-and-SubModelPart.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Create and edit ModelParts
 
 Here we introduce the basics to create and access to model parts and submodelparts.

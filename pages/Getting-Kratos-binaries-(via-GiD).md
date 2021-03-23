@@ -1,3 +1,11 @@
+---
+title: Getting Kratos binaries (via GiD)
+keywords: 
+tags: [Getting-Kratos-binaries-(via-GiD).md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 The following video resumes the process.
 
 [![](https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Download_Kratos_for_user_purpose/video.png)](https://youtu.be/uo0mfqBlc4Y)

@@ -1,3 +1,11 @@
+---
+title: Adjoint API
+keywords: 
+tags: [Adjoint-API.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview
 
 This page describes the API for adjoint-based sensitivities in Kratos. It is the reference for developers creating new adjoint elements and response functions.

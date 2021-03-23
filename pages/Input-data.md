@@ -1,3 +1,11 @@
+---
+title: Input data
+keywords: 
+tags: [Input-data.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Overview 
 
 The current input data consist of one archive with .mdpa extension. The input file is free format and the reading is not depend to the spaces, tabs, endlines etc.

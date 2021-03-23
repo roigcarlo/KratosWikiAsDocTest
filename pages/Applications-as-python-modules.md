@@ -1,3 +1,11 @@
+---
+title: Applications as python modules
+keywords: 
+tags: [Applications-as-python-modules.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 https://github.com/KratosMultiphysics/Kratos/pull/3217/ enables the applications can be used as python-modules.
 
 This means that the python-scripts in the Applications can now be used e.g. as:

@@ -1,3 +1,11 @@
+---
+title: _Sidebar
+keywords: 
+tags: [_Sidebar.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Project information
 * [Home][wiki]
 * [Overview](https://github.com/KratosMultiphysics/Kratos/wiki/Overview)

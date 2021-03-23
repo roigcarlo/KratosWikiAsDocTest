@@ -1,3 +1,11 @@
+---
+title:  Creating an Utility
+keywords: 
+tags: [Tutorial:-Creating-an-Utility.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Overview
 
 Utilities are useful tools to perform arbitrary actions. Furthermore, it is possible to create the solver to your specific problems and avoid using the builder and solver, for example to create a new edge based builder. For educational purposes, we will create here a simple utility that calculates the mean temperature inside the domain once the solution has been obtained. 

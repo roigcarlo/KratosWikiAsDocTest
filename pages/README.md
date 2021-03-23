@@ -1,3 +1,11 @@
+---
+title: README
+keywords: 
+tags: [README.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 ## Welcome to GitHub Pages FROM README
 
 You can use the [editor on GitHub](https://github.com/roigcarlo/KratosWikiAsDocTest.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.

@@ -1,3 +1,11 @@
+---
+title: Running an example from GiD
+keywords: 
+tags: [Running-an-example-from-GiD.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 # Running an example from GiD
 
 ## 1. Introduction

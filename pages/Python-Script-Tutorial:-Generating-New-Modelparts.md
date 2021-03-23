@@ -1,3 +1,11 @@
+---
+title: Python Script  Generating New Modelparts
+keywords: 
+tags: [Python-Script-Tutorial:-Generating-New-Modelparts.md]
+sidebar: kratos_sidebar
+summary: 
+---
+
 `ModelParts` are the essential data structure to hold **FEM** objects in Kratos.
 
 Since the "physics" of a problem is provided by the `Element` and `Condition` which implement it, in order to describe a new physical problem one should provide a new `ModelPart` describing the connectivity but also made of the relevant element technology.
