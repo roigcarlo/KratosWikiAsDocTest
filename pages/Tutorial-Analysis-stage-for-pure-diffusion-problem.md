@@ -1,7 +1,7 @@
 ---
 title:  Analysis stage for pure diffusion problem
 keywords: 
-tags: [Tutorial:-Analysis-stage-for-pure-diffusion-problem.md]
+tags: [Tutorial-Analysis-stage-for-pure-diffusion-problem.md]
 sidebar: kratos_sidebar
 summary: 
 ---
