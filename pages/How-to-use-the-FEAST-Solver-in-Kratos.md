@@ -1,7 +1,7 @@
 ---
 title: the FEAST Solver in Kratos?
 keywords: 
-tags: [How-to-use-the-FEAST-Solver-in-Kratos?.md]
+tags: [How-to-use-the-FEAST-Solver-in-Kratos.md]
 sidebar: kratos_sidebar
 summary: 
 ---
