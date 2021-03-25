@@ -1,7 +1,7 @@
 ---
-title: [Utilities] Colors utility
+title: Utilities Colors utility
 keywords: 
-tags: [[Utilities]-Colors-utility.md]
+tags: [Utilities-Colors-utility.md]
 sidebar: kratos_sidebar
 summary: 
 ---

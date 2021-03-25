@@ -1,7 +1,7 @@
 ---
-title: [Utilities] ParMmg Process
+title: Utilities ParMmg Process
 keywords: 
-tags: [[Utilities]-ParMmg-Process.md]
+tags: [Utilities-ParMmg-Process.md]
 sidebar: kratos_sidebar
 summary: 
 ---

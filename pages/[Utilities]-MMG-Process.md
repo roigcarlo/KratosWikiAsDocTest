@@ -1,7 +1,7 @@
 ---
-title: [Utilities] MMG Process
+title: Utilities MMG Process
 keywords: 
-tags: [[Utilities]-MMG-Process.md]
+tags: [Utilities-MMG-Process.md]
 sidebar: kratos_sidebar
 summary: 
 ---
@@ -102,7 +102,7 @@ Kratos/scripts/configure.sh
 Once Kratos is compiled, you will have to tell the OS where to find the libraries. You can do that by executing this command.
 
 Linux
-```Shell
+```bash
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/my/src/folder/mmg/build/lib" >> $HOME/.bashrc
 ```
 

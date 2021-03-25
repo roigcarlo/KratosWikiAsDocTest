@@ -88,17 +88,17 @@ Becomes
 
 This construct no longer exists in pybind11. Its previous use was to print a stringified version of your class. In pybind you must provide it yourself by defining the __str__ function 
 
-```C++
+```c++
 .def(self_ns::str(self))
 ```
 
 becomes 
 
-```C++
+```c++
 .def("__str__", &Class::ToStrFunction)
 ```
 Note that a default implementation of a `__str__` called `PrintObject`, which should be useful for most Kratos classes, is provided in `define_python.h`. It can be used as:
-```C++
+```c++
 py::class_< SomeClass, SomeClass::Pointer, SomeBaseClass>
 // other methods
 .def("__str__", PrintObject<SomeClass>)
@@ -132,38 +132,38 @@ Just compile your application on Windows and see if there are linking errors. I 
 
 **Missing exported classes**:
 
-```C++
+```c++
 class foo {}
 ```
 to
-```C++
+```c++
 class KRATOS_API(APPLICATION) foo {}
 ```
 
 **Variables**:
 
-```C++
+```c++
 KRATOS_DEFINE_VARIABLE(type, FOO)
 ```
 to
-```C++
+```c++
 KRATOS_DEFINE_APPLICATION_VARIABLE(APPLICATION, type, FOO)
 ```
 
 **Local Flags**:
 
-```C++
+```c++
 KRATOS_DEFINE_LOCAL_FLAG(FOO)
 ```
 to
-```C++
+```c++
 KRATOS_DEFINE_LOCAL_APPLICATION_FLAG(APPLICATION, FOO)
 ```
 **Template instantiation in the interface of non header classes**
 
 This is more tricky. If you happen to expose a templated class and such class in non header-only, you must explicitly instantiate that in your "core" application, for example in the foo_application.cpp file.
 
-```C++
+```c++
 #foo.h
 template<typename Ta, typename Tb> class KRATOS_API(FOO_APPLICATION) MyTemplateClass{
 }
@@ -174,7 +174,7 @@ MyTemplateClass::MyTemplateClass() {
 }
 ```
 and
-```C++
+```c++
 # add_utilities_to_python.cpp
 class_<MyTemplateClass<int, int>>(m, "MyTemplateClassInts").def(init<>);
 class_<MyTemplateClass<double, double>>(m, "MyTemplateClassDoubles").def(init<>);
@@ -182,7 +182,7 @@ class_<MyTemplateClass<double, double>>(m, "MyTemplateClassDoubles").def(init<>)
 
 This will crash, and you need to add:
 
-```C++
+```c++
 # foo_application.cpp
 template class MyTemplateClass<int, int>;
 template class MyTemplateClass<double, double>;

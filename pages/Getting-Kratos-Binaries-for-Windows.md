@@ -36,7 +36,7 @@ kratos MainKratos.py
 
 ### Example Script
 
-```Python
+```python
 import KratosMultiphysics as KM
 import KratosMultiphysics.ExternalSolversApplication as ESA
 ```

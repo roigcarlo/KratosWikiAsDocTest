@@ -1,7 +1,7 @@
 ---
-title: Kratos For Dummies: Stationary heat transfer
+title: Kratos For Dummies Stationary heat transfer
 keywords: 
-tags: [Kratos-For-Dummies:-Stationary-heat-transfer.md]
+tags: [Kratos-For-Dummies-Stationary-heat-transfer.md]
 sidebar: kratos_sidebar
 summary: 
 ---

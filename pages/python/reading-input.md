@@ -11,22 +11,24 @@ The `ModelPart` represents an arbitrary part of the `Model` to be simulated and 
 # Setup
 First of all we need to create a python file with following code to import the *Kratos*:
 
-```Python
+```python
 from KratosMultiphysics import *
 from KratosMultiphysics.FluidDynamicsApplication import *
 ```
+{: data-lang="Python"}
 
 # Creating a ModelPart
 To create a `ModelPart`, one has to create a new `Model` first, and then to call its constructor passing the `ModelPart``s name as its argument:
 
-```Python
+```python
 this_model = Model()
 fluid_model_part = this_model.CreateModelPart("FluidPart")
 ```
+{: data-lang="Python"}
 
 You can print the fluid_model_part:
 
-```Python
+```python
 >>> print(fluid_model_part)
 -FluidPart- model part
     Buffer Size : 1
@@ -40,22 +42,24 @@ You can print the fluid_model_part:
         Number of Elements   : 0
         Number of Conditions : 0
 ```
+{: data-lang="Python Output"}
 
 It can be seen that the `ModelPart` is empty and has the buffer size equal to 1. This means that no history of the nodal solution steps variables will be saved.
 
 The next step is to define the variables we want to store as historical variables in nodes of this `ModelPart` as follow:
 
-```Python
+```python
 fluid_model_part.AddNodalSolutionStepVariable(VELOCITY)
 fluid_model_part.AddNodalSolutionStepVariable(PRESSURE)
 ```
+{: data-lang="Python"}
 
 # Reading ModelPart File
 The input file of the *Kratos* has `.mdpa` (stand for ModelPart) and contains the properties, nodes, elements, conditions and initial values. A convenient way to create this file is to use the interface prepared for *GiD* pre and post processor. [Here](https://github.com/KratosMultiphysics/Kratos/wiki/Input-data) you can find more information about the input file. Here we assume that the `Cylinder.mdpa` input file is already created using *GiD*:
 
 For reading the `.mdpa` file first we have to create a `ModelPartIO` object passing the input file path/name to its constructor:
 
-```Python
+```python
 fluid_model_part_io = ModelPartIO("path/to/file/example")
 ```
 
@@ -63,7 +67,7 @@ fluid_model_part_io = ModelPartIO("path/to/file/example")
 
 Then use this *IO* object to read the file and store the mesh and data in `ModelPart`:
 
-```Python
+```python
 fluid_model_part_io.ReadModelPart(fluid_model_part)
 ```
 
@@ -134,7 +138,7 @@ And printing again the `ModelPart`:
 # Setting the Buffer Size
 If we need to store the values of the nodal solution step variables in previous time steps, we must modify the buffer size **AFTER** defining the historical variables:
 
-```Python
+```python
 fluid_model_part.SetBufferSize(2)
 ```
 

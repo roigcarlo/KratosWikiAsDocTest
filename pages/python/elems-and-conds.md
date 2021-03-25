@@ -11,7 +11,7 @@ The elements and conditions are the main extension points of the *Kratos*. In in
 # Starting
 First of all we need to create a python file with following code to import the *Kratos*, create a `ModelPart` and read it from input as described in the here :
 
-```Python
+```python
 from KratosMultiphysics import *
 import KratosMultiphysics.FluidDynamicsApplication
 
@@ -31,20 +31,20 @@ fluid_model_part.SetBufferSize(3)
 # Accessing `Elements`
 The elements stored in the ModelPart can be accessed using the Elements parameter:
 
-```Python
+```python
 model_part_elements = fluid_model_part.Elements
 ```
  
 Iteration over all elements in a model part is very similar to the nodes. For example writing the elements in a model part can be done as follow:
 
-```Python
+```python
 for element in fluid_model_part.Elements:
     print(element)
 ```
 
 and printing the ID for all of the elements:
 
-```Python
+```python
 for element in fluid_model_part.Elements:
     print(element.Id)
 ```
@@ -52,20 +52,20 @@ for element in fluid_model_part.Elements:
 # Accessing `Conditions`
 Conditions parameter of model part provides access to the conditions it stores:
 
-```Python
+```python
 model_part_conditions = fluid_model_part.Conditions
 ```
 
 Iteration over conditions is very similar to the elements. In the same way printing conditions is as follow:
 
-```Python
+```python
 for condition in fluid_model_part.Conditions:
     print(condition)
 ```
 
 and printing the ID for all of the conditions:
 
-```Python
+```python
 for condition in fluid_model_part.Conditions:
     print(condition.Id)
 ```

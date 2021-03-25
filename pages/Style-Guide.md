@@ -190,13 +190,13 @@ Codacy checks the style of the code every time you open a PR. It usually complai
 ## Doxygen 
 
 Commenting for classes consist of a brief description and a detailed one as follow:
-```C++
+```c++
  /// Brief description.
  /** Detailed description. 
  */
 ```
 which must be placed just befor the class definition. for example in Geometry.h:
-```C++
+```c++
  ///Geometry base class.
  /** As a base class Geometry has all the common
      interface of Kratos' geometries. Also it contains array of
@@ -223,7 +223,7 @@ which must be placed just befor the class definition. for example in Geometry.h:
 It is very recommended to use the @see command which appears as see also with a link to indicate some related classes.
 
 For methods of the class the same structure can be used but with information about parameters and return value if there is:
-```C++
+```c++
  /** Jacobian in specific integration point of given integration
      method. This method calculate jacobian matrix in given
      integration point of given integration method.
@@ -255,7 +255,7 @@ The following commands can be used in documentation of methods and functions:
 * `\f[ \f]` for creating a centered latex formula
 
 Here is an example:
-```C++
+```c++
  /** Calculates center of this geometry by a simple averaging algorithm.
      Each center point component calculated using:
      \f[

@@ -17,7 +17,7 @@ You can find latest Kratos compilation instructions in [Install.md](https://gith
 
 To to tests the compilation, you can execute a simple python script containing this line:
 
-```Python
+```python
 from KratosMultiphysics import *
 ```
 
@@ -422,7 +422,7 @@ source ~/.bashrc
 
 To to tests the compilation, you can execute a simple python script containing this line:
 
-```Python
+```python
 from KratosMultiphysics import *
 ```
 

@@ -6,7 +6,7 @@ sidebar: kratos_sidebar
 summary: 
 ---
 
-Given a basis matrix <a href="https://www.codecogs.com/eqnedit.php?latex=\color{Black}\bold{{\Phi}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\color{Black}\bold{{\Phi}}" title="\color{Black}\bold{{\Phi}}" /></a> with as many rows as degrees of freedom times the number of nodes and as many columns as representative modes have been considered using a given truncation tolerance on the SVD of a Snapshots matrix.
+Given a basis matrix <a href="https://www.codecogs.com/eqnedit.php?latex=\color{Black}\bold{ {\Phi} }" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\color{Black}\bold{ {\Phi} }" title="\color{Black}\bold{ {\Phi} }" /></a> with as many rows as degrees of freedom times the number of nodes and as many columns as representative modes have been considered using a given truncation tolerance on the SVD of a Snapshots matrix.
 
 
 

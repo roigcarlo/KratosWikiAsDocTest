@@ -1,7 +1,7 @@
 ---
-title: "Smart Pointers" within Kratos
+title: Smart Pointers within Kratos
 keywords: 
-tags: [How-to-use-"Smart-Pointers"-within-Kratos.md]
+tags: [How-to-use-Smart-Pointers-within-Kratos.md]
 sidebar: kratos_sidebar
 summary: 
 ---

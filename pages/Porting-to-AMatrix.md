@@ -88,11 +88,11 @@ namespace Kratos
 Keep in mind that the SparseSpace type used as template argument to define strategies and builder and solvers still uses ublas types. This means that you will probably need to update the `add_whatever_to_python.cpp` files in your application.
 
 If you have a type definition that looks like
-```C++
+```c++
 typedef UblasSpace<double, CompressedMatrix, Vector > SparseSpaceType;
 ```
 keep in mind that the `Vector` type has been redefined in AMatrix, so you need to point back to the ublas type:
-```C++
+```c++
 typedef UblasSpace<double, CompressedMatrix, boost::numeric::ublas::vector<double>> SparseSpaceType;
 ```
 Note that this may require adding an include for `"boost/numeric/ublas/matrix.hpp"`.

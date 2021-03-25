@@ -11,7 +11,7 @@ In this tutorial the procedure for writing the mesh and data from a `ModelPart` 
 # Starting
 First of all we need to create a python file with following code to import the *Kratos*, create a `ModelPart` and read it from input as described in the previous tutorial :
 
-```Python
+```python
 from KratosMultiphysics import *
 import KratosMultiphysics.FluidDynamicsApplication
 
@@ -31,7 +31,7 @@ The `GiDOutputProcess` helper class can be used to write GiD output from Python.
 
 Before we begin, we will need to import the module that defines the `GiDOutputProcess` class:
 
-```Python
+```python
 from gid_output_process import GiDOutputProcess
 ```
 
@@ -92,13 +92,13 @@ The configuration also gives us the option to select which results will be print
 # Using the *GiD* output utility
 
 The usage of the *GiD* output class follows the structure of `Kratos` processes, with one exception. The following methods should be called before starting the solution loop:
-```Python
+```python
 gid_output.ExecuteInitialize()
 gid_output.ExecuteBeforeSolutionLoop()
 ```
 
 During the solution loop, one should call, at each time step:
-```Python
+```python
 gid_output.ExecuteInitializeSolutionStep()
 
 ## The actual solution goes here
@@ -115,7 +115,7 @@ gid_output.ExecuteFinalizeSolutionStep()
 ```
 
 Finally, once the solution is done, call
-```Python
+```python
 gid_output.ExcecuteFinalize()
 ```
 to close any remaining open files.

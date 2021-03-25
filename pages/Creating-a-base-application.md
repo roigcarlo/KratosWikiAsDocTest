@@ -22,7 +22,7 @@ That's it! Your application has been generated, You can check that it has been c
 
 In order to compile it just add:
 
-```Bash
+```bash
 -DMY_EXAMPLE_APPLICATION=ON \
 ```
 
@@ -40,7 +40,7 @@ The first block we will find is the import block. You should not touch this unle
 #### The generator class
 The second block is the generator itself. It will read the name of your app from the terminal and initialize an `ApplicationGenerator` object with it
 
-```Python
+```python
 # Read the application name and generate Camel, Caps and Low
 appNameCamel = sys.argv[1]
 
@@ -51,7 +51,7 @@ debugApp = ApplicationGenerator(appNameCamel)
 This is the very minimum you need to create the app, but in the example we also make use of some additional features:
 
 #### Variables
-```Python
+```python
 # Add KratosVariables
 debugApp.AddVariables([
     VariableCreator(name='1D_VARIABLE', vtype='double'),
@@ -62,7 +62,7 @@ debugApp.AddVariables([
 The `AddVariables` function let you add an initial set of kratos variables. You only need to specify the **name** of the variable, its **type** and set the `is3D` to true if you want to be a variable with components X, Y and Z. The variable will be created, defined and registered in kratos automatically, and also exported into the python interface. We recommend you to define at least a couple of them so you can check how the code is organized once the application is created.
 
 #### Elements
-```Python
+```python
 # Add test element
 debugApp.AddElements([
     ElementCreator('CustomTestElement')
@@ -80,7 +80,7 @@ debugApp.AddElements([
 The `AddElements` function will tell the generator to also add an element when generating your application code. This is useful if you know that you will need one. The element (or elements) can be created using the `ElementCreator` class. This class also provide methods to add **dofs**, **flags** and even class members. Is not the aim of the tutorial to go through all this options but feel free to play a bit with them.
 
 #### Conditions
-```Python
+```python
 debugApp.AddConditions([
     ConditionCreator('CustomTestCondition')
 ])
@@ -90,7 +90,7 @@ The `AddCondition` function is the analogue of `AddElements` but for conditions.
 
 <!--
 #### Processes
-```Python
+```python
 debugApp.AddProcesses([
     ProcessCreator('CustomTestProcessAlpha'),
     ProcessCreator('CustomTestProcessDelta')
@@ -101,7 +101,7 @@ debugApp.AddProcesses([
 Finally you can create processes. There is no custom options for processes yet but its name and you will probably need at least one. 
 
 #### Generating the app
-```Python
+```python
 debugApp.Generate()
 ```
 

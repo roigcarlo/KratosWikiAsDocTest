@@ -1,30 +1,36 @@
 ---
-title: quaternions in Kratos
+title: Quaternions in Kratos
 keywords: 
-tags: [How-to-use-quaternions-in-Kratos.md]
+tags: [C++, Quaternions Tutorial]
 sidebar: kratos_sidebar
 summary: 
 ---
 
 # Description
-The Quaternion is a Kratos utility class used to represent 3D orientations and rotations, as an efficient and robust alternative to other representations such as Euler angles or rotation matrices. A Quaternion is represented in the form:  
-_w_ + _x**i**_ + _y**j**_ + _z**k**_  
-where _w_, _x_, _y_ and _z_ are scalar coefficients (the only four members of the Quaternion class), and _**i**_, _**j**_, and _**k**_ are the fundamental quaternion units.
+The Quaternion is a Kratos utility class used to represent 3D orientations and rotations, as an efficient and robust alternative to other representations such as Euler angles or rotation matrices. A Quaternion is represented in the form:
+
+$$ w + x\boldsymbol{i} + y\boldsymbol{j} + z\boldsymbol{k} $$  
+
+Where \\(w\\), \\(x\\), \\(y\\) and \\(z\\) are scalar coefficients (the only four members of the Quaternion class), and \\(\boldsymbol{i}\\), \\(\boldsymbol{j}\\), and \\(\boldsymbol{k}\\) are the fundamental quaternion units.
 
 You can find an interactive and funny way to learn about quaternions [here](https://eater.net/quaternions).
 
 # How to construct a Quaternion
 To instantiate a quaternion you can either use one of the constructors, or some ad-hoc static functions.  
 You can use the default constructor to instantiate a zero quaternion:
+
 ```c++
 Quaternion<double> q;
 ```
+
 Or you can create a quaternion directly from its four coefficients like this:
+
 ```c++
 double w,x,y,z;
 // ... code to set up the coefficients ...
 Quaternion<double> q(w, x,y,z);
 ```
+
 The identity quaternion (i.e. the quaternion that represents a zero rotation) can be either created using the full constructor or the dedicated static function:
 ```c++
 Quaternion<double> q(1.0, 0.0,0.0,0.0);

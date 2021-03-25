@@ -198,7 +198,7 @@ If you have enabled the embedded python option -DINSTALL_EMBEDDED_PYTHON=ON, you
 
 To to tests the compilation, you can execute a simple python script containing this line:
 
-```Python
+```python
 from KratosMultiphysics import *
 ```
 

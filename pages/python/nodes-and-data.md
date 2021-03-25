@@ -11,7 +11,7 @@ In this tutorial the access to the nodes stored in a `ModelPart` and their nodal
 # Starting
 First of all we need to create a python file with following code to import the *Kratos*, create a `ModelPart` and read it from input as described in the here :
 
-```Python
+```python
 from KratosMultiphysics import *
 import KratosMultiphysics.FluidDynamicsApplication
 
@@ -31,19 +31,19 @@ fluid_model_part.SetBufferSize(3)
 # Accessing Nodes
 The nodes stored in the ModelPart can be accessed using the Nodes parameter:
 
-```Python
+```python
 model_part_nodes = fluid_model_part.Nodes
 ```
 Having access to the nodes make iteration over all nodes very easy. For example to print all nodes in the model part:
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     print(node)
 ```
 
 Here is a loop over all of the nodes in a model part, which prints the ID for all of the nodes:
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     print(node.Id)
 ```
@@ -59,14 +59,14 @@ node_z = node.Z
 
 Or we can extend the previous example writing also the coordinates of all the nodes in the ModelPart:
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     print(node.Id, node.X, node.Y, node.Z)
 ```
 
 This access is very useful in order to classify the nodes due to their position. For example we can extend the previous loop to write node information exclusively on the nodes with positive X
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     if(node.X > 0.0): # Printing the ID of all of the nodes with positive X
         print(node.Id, node.X, node.Y)
@@ -75,27 +75,27 @@ for node in fluid_model_part.Nodes:
 # Nodal Data
 The Python interface provides full access to the nodal database. The access to the historical variables is given by `GetSolutionStepValue` and `SetSolutionStepValue` passing the variable you want:
 
-```Python
+```python
 node_velocity = node.GetSolutionStepValue(VELOCITY) # node's velocity at the current time step
 ```
 
 We can write the velocities of all the nodes:
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     node_velocity = node.GetSolutionStepValue(VELOCITY) # node's velocity at the current time step
     print(node_velocity)
 ```
 you can also get a value for n time step ago, where n is the buffer size:
 
-```Python
+```python
 node_previous_velocity = node.GetSolutionStepValue(VELOCITY, 1) # node's velocity at 1 time step ago 
 node_earlier_velocity = node.GetSolutionStepValue(VELOCITY, 2) # node's velocity at 2 time step ago
 ```
  
 For getting the previous time step velocities of all the nodes:  
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
    print(node.GetSolutionStepValue(VELOCITY, 1)) # node's velocity at 1 time step ago
 ```
@@ -103,7 +103,7 @@ for node in fluid_model_part.Nodes:
 To set the historical value for a variable in a node we can use the `SetSolutionStepValue`. To make an example 
 let's assume that we want to set the variable `TEMPERATURE` to the value of 100.0 on the nodes in our `ModelPart`. This is obtained immediately by typing
 
-```Python
+```python
 for node in fluid_model_part.Nodes:
     node.SetSolutionStepValue(TEMPERATURE,0,100.0)
 ```

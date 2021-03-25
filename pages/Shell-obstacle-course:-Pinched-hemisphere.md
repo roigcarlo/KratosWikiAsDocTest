@@ -1,5 +1,5 @@
 ---
-title: Shell obstacle course: Pinched hemisphere
+title: Shell obstacle course Pinched hemisphere
 keywords: 
 tags: [Shell-obstacle-course:-Pinched-hemisphere.md]
 sidebar: kratos_sidebar

@@ -1890,7 +1890,7 @@ address {
     line-height: 1.42857143
 }
 
-code,
+/* code,
 kbd,
 pre,
 samp {
@@ -1903,7 +1903,7 @@ code {
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px
-}
+} */
 
 kbd {
     padding: 2px 4px;
@@ -1919,7 +1919,7 @@ kbd kbd {
     font-weight: 700;
 }
 
-pre {
+/* pre {
     display: block;
     padding: 9.5px;
     margin: 0 0 10px;
@@ -1931,16 +1931,16 @@ pre {
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: 4px
-}
+} */
 
-pre code {
+/* pre code {
     padding: 0;
     font-size: inherit;
     color: inherit;
     white-space: pre-wrap;
     background-color: transparent;
     border-radius: 0
-}
+} */
 
 .pre-scrollable {
     max-height: 340px;

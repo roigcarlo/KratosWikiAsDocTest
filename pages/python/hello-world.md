@@ -8,13 +8,13 @@ summary:
 
 The first step in writing a python script for *Kratos* is importing the KratosMultiphysics as follow:
 
-```Python
+```python
 from KratosMultiphysics import *
 ```
 
 This imports the *Kratos* and shows a logo of *Kratos*:
 
-```
+```bash
  |  /           |             
  ' /   __| _` | __|  _ \   __|
  . \  |   (   | |   (   |\__ \ 

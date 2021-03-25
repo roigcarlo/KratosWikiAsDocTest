@@ -180,7 +180,35 @@ entries:
         subfolderitems:
 
         - title: Basic
-          url: /pages/Python-Tutorials.html
+          url: /pages/python/tutorials.html
+          output: web
+
+        - title: Getting Started
+          url: /pages/python/getting-started.html
+          output: web
+
+        - title: Hello World
+          url: /pages/python/hello-world.html
+          output: web
+
+        - title: Reading Project Parameters
+          url: /pages/python/project-parameters.html
+          output: web
+
+        - title: Reading ModelPart
+          url: /pages/python/reading-input.html
+          output: web
+
+        - title: Writing Output File
+          url: /pages/python/writing-output.html
+          output: web
+
+        - title: Nodes & Nodal Data
+          url: /pages/python/nodes-and-data.html
+          output: web
+
+        - title: Elements & Conditions
+          url: /pages/python/elems-and-conds.html
           output: web
 
         - title: List of classes and variables accessible via python

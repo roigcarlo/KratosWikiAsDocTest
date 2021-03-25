@@ -13,7 +13,7 @@ In this tutorial, the use of the **JSON** format together with the *Kratos* `Par
 # Setup
 First of all we need to create a python file with following code to import the *Kratos*:
 
-```Python
+```python
 from KratosMultiphysics import *
 ```
 
@@ -144,40 +144,40 @@ In this subsection we will try to parse the `ProjectParameters.json` file to con
 
 and can be parsed to construct a *Kratos* Parameters object with the next two lines of code
 
-```Python
+```python
 json_file = open("ProjectParameters.json",'r')
 ProjectParameters = Parameters(json_file.read())
 ```
 
 To visualize the content of the *ProjectParameters* we need to make the *ProjectParameters* printable. This can be done by calling the **PrettyPrintJsonString** method from the *ProjectParameters* object in this way
 
-```Python
+```python
 print(ProjectParameters.PrettyPrintJsonString())
 ```
 
 # Working with the *Kratos* Parameters
 Once we have parsed the `ProjectParameters.json` file, we can start to check, get and edit its information. At this point it is interesting to mention that the Parameters works in a similar manner that a common Python dictionary does. For instance we can extract the solver settings required by the Python solvers by doing
 
-```Python
+```python
 solver_settings = ProjectParameters["solver_settings"]
 ```
 
 Similarly, we can do the same operation for a list entry. For instance we can iterate through the entire list of boundary conditions settings as is done below. Note that we have used the method `size` to obtain the length of the iterated list.
 
-```Python
+```python
 for i in range(ProjectParameters["boundary_conditions_process_list"].size()):
     boundary_condition_settings = ProjectParameters["boundary_conditions_process_list"][i]
 ```
 
 Complementary, we can check if any field exists before trying to retrieve its value with the `Has` method. This method returns a boolean variable with value `True` if the field exists and false otherwise.
 
-```Python
+```python
 ProjectParameters.Has("output_configuration")
 ```
 
 To get or modify the value of any field, the *Kratos* Parameters incorporates the `Get` and `Set` methods, which are particularized for all the variable types. Some example of its usage can be found in the lines below.
 
-```Python
+```python
 end_time = ProjectParameters["problem_data"]["end_time"].GetDouble()
 domain_size = ProjectParameters["problem_data"]["domain_size"].GetInt()
 ProjectParameters["problem_data"]["end_time"].SetDouble(20.0)

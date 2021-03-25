@@ -23,7 +23,7 @@ The python line profiler needs to know beforehand which functions are you intere
 
 In order to mark such parts, you will have to use the `@profile` decorator. A example is presented below:
 
-```Python
+```python
 @profile
 def my_function():
     var = calculate()
@@ -34,7 +34,7 @@ Unfortunately, this process will make your code break if you try to run it witho
 
 Such launcher script have to look like this:
 
-```Python
+```python
 import os
 import sys
 import builtins
@@ -66,7 +66,7 @@ mpirun -np [N] --output-filename profile python profiler.py MainKratos.py
 ## Analyzing output
 
 Parser.py
-```Python
+```python
 import os
 import re
 import sys
@@ -150,7 +150,7 @@ def ComputeTotalTime(trace):
 ```
 
 Analyzer.py
-```Python
+```python
 import parser
 
 profile_outputs = {
