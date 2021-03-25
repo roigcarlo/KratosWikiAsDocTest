@@ -1,7 +1,7 @@
 ---
 title: Example A simple Fluid   Thermal coupled solver
 keywords: 
-tags: [Example:-A-simple-Fluid---Thermal-coupled-solver.md]
+tags: [Example-A-simple-Fluid---Thermal-coupled-solver.md]
 sidebar: kratos_sidebar
 summary: 
 ---
