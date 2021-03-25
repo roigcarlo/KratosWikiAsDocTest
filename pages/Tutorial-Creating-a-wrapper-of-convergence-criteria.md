@@ -1,7 +1,7 @@
 ---
 title:  Creating a wrapper of convergence criteria
 keywords: 
-tags: [Tutorial:-Creating-a-wrapper-of-convergence-criteria.md]
+tags: [Tutorial-Creating-a-wrapper-of-convergence-criteria.md]
 sidebar: kratos_sidebar
 summary: 
 ---
