@@ -100,7 +100,6 @@ entries:
       output: web
 
   - title: Solvers
-
     output: web
     folderitems:
     - title: FEAST Solver
@@ -110,37 +109,55 @@ entries:
       url: /pages/ttps://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-the-PaStiX-solver-in-Kratos.html
       output: web
 
-  - title: Debugging, profiling and testing
-
+  - title: Test & Debug
     output: web
     folderitems:
-    - title: Compiling Kratos in debug mode
-      url: /pages/How-to-Compile-Kratos-in-Debug-mode.html
+
+    - title: Introduction
       output: web
-    - title: Debugging Kratos using GDB
-      url: /pages/Debugging-Kratos-Using-GDB.html
-      output: web
-    - title: Cross-debugging Kratos under Windows
-      url: /pages/How-to-cross-debug-Kratos-under-Windows.html
-      output: web
-    - title: Debugging Kratos C++ under Windows
-      url: /pages/Debugging-Kratos-using-Visual-Studio.html
-      output: web
-    - title: Checking memory usage with Valgind
-      url: /pages/Checking-memory-usage-with-Valgrind.html
-      output: web
-    - title: Profiling Kratos with MAQAO
-      url: /pages/How-to-profile-Kratos-using-MAQAO.html
-      output: web
-    - title: Creating unitary tests
-      url: /pages/How-to-create-unitary-tests.html
-      output: web
-    - title: Using ThreadSanitizer to detect OMP data race bugs
-      url: /pages/How-to-use-ThreadSanitizer-to-detect-OMP-data-race-bugs.html
-      output: web
-    - title: Debugging Memory with ASAN
-      url: /pages/Debug-Memory-Using-ASAN.html
-      output: web
+
+      subfolders:
+      - title: Debugging
+        output: web
+        subfolderitems:
+
+        - title: Compiling in Debug
+          url: /pages/How-to-Compile-Kratos-in-Debug-mode.html
+          output: web
+        - title: Debugging C++ with GDB In Linux
+          url: /pages/Debugging-Kratos-Using-GDB.html
+          output: web
+        - title: Debugging C++ wih VStudio In Windows
+          url: /pages/Debugging-Kratos-using-Visual-Studio.html
+          output: web
+        - title: Cross-Debugging in Windows
+          url: /pages/How-to-cross-debug-Kratos-under-Windows.html
+          output: web
+        - title: Thread Sanitizer and OMP data race bugs
+          url: /pages/How-to-use-ThreadSanitizer-to-detect-OMP-data-race-bugs.html
+          output: web
+        - title: Memory Sanitizer with ASAN
+          url: /pages/Debug-Memory-Using-ASAN.html
+          output: web
+
+      - title: Profile
+        output: web
+        subfolderitems:
+
+        - title: Checking Memory Usage
+          url: /pages/Checking-memory-usage-with-Valgrind.html
+          output: web
+        - title: Profiling Kratos with MAQAO
+          url: /pages/How-to-profile-Kratos-using-MAQAO.html
+          output: web
+
+      - title: Testing
+        output: web
+        subfolderitems:
+          
+        - title: Creating unitary tests
+          url: /pages/How-to-create-unitary-tests.html
+          output: web
 
   - title: Tutorials
     output: web
