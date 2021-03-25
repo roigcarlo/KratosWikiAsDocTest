@@ -1,7 +1,7 @@
 ---
 title:  Creating an Utility
 keywords: 
-tags: [Tutorial:-Creating-an-Utility.md]
+tags: [Tutorial-Creating-an-Utility.md]
 sidebar: kratos_sidebar
 summary: 
 ---
