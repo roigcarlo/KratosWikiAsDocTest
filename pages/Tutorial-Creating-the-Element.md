@@ -1,7 +1,7 @@
 ---
 title:  Creating the Element
 keywords: 
-tags: [Tutorial:-Creating-the-Element.md]
+tags: [Tutorial-Creating-the-Element.md]
 sidebar: kratos_sidebar
 summary: 
 ---
