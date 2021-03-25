@@ -1,7 +1,7 @@
 ---
 title:  Creating the Conditions
 keywords: 
-tags: [Tutorial:-Creating-the-Conditions.md]
+tags: [Tutorial-Creating-the-Conditions.md]
 sidebar: kratos_sidebar
 summary: 
 ---
