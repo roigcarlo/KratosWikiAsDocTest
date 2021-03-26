@@ -1,7 +1,7 @@
 ---
 title: Python Tutorials
 keywords: 
-tags: [Python-Tutorials.md]
+tags: [Python Tutorial]
 sidebar: kratos_sidebar
 summary: 
 ---

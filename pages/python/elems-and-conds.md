@@ -1,7 +1,7 @@
 ---
-title: Python Script  ModelPart Elements and Conditions
+title: ModelPart Elements and Conditions
 keywords: 
-tags: [Python-Script-Tutorial:-ModelPart-Elements-and-Conditions.md]
+tags: [Python Tutorial ModelPart Elements Conditions]
 sidebar: kratos_sidebar
 summary: 
 ---

@@ -1,7 +1,7 @@
 ---
-title: Python Script  Getting Started
+title: Getting Started
 keywords: 
-tags: [Python-Script-Tutorial:-Getting-Started.md]
+tags: [Python Tutorial Getting Started Begginer First Steps]
 sidebar: kratos_sidebar
 summary: 
 ---

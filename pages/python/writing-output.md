@@ -1,7 +1,7 @@
 ---
-title: Python Script  Writing Output File
+title: Writing Output File
 keywords: 
-tags: [Python-Script-Tutorial:-Writing-Output-File.md]
+tags: [Python Tutorial Writing Output]
 sidebar: kratos_sidebar
 summary: 
 ---

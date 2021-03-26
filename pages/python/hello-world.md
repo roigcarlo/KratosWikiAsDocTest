@@ -1,7 +1,7 @@
 ---
-title: Python Script  Hello Kratos
+title: Hello World
 keywords: 
-tags: [Python-Script-Tutorial:-Hello-Kratos.md]
+tags: [Python Tutorial Hello World]
 sidebar: kratos_sidebar
 summary: 
 ---
