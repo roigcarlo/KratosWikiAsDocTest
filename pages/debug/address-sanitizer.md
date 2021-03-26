@@ -6,7 +6,7 @@ sidebar: kratos_sidebar
 summary: 
 ---
 
-_**Note**: Please note this page assumes advance knowledge of compilers._
+{% include note.html content="This page assumes some knowledge with compilers. Please do not try this if you are not familiar with CMake or Clang" %}
 
 ## Debug Memory Using ASAN
 
@@ -17,11 +17,12 @@ The steps to compile are detailed here:
 ### CMake Changes:
 
 - Remove `-Wl,--no-undefined` from all compilation targets. This must be done in the root `CMakeLists.txt`
+
 - Add `link_libraries(-fsanitize=address -shared-libasan)` before declaring any target_link_library. Ideally you want to do that before line 200 of the root `CMakeLists.txt`.
 
 Example of a possible diff:
 
-```CMake
+```cmake
 # Set compiler flags
 if(${CMAKE_COMPILER_IS_GNUCXX})
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -funroll-loops -Wall -std=c++11")
@@ -86,15 +87,15 @@ link_libraries(-fsanitize=address -shared-libasan)
 ### Configure.sh Changes
 
 You need to add the following compiler flags:
-- -fsanitize=address: Enables the memory sanitizer
-- -fno-omit-frame-pointer: Allows you to obtain full stack-traces
-- -fsanitize-recover=address: Allows the sanitizer to recover from errors (allows execution to continue after the first detection)
+- **-fsanitize=address:** Enables the memory sanitizer
+- **-fno-omit-frame-pointer:** Allows you to obtain full stack-traces
+- **-fsanitize-recover=address:** Allows the sanitizer to recover from errors (allows execution to continue after the first detection)
 
 ### Symbolizer
 In order for the address sanitizer to give you code names instead of addresses you will need a symbolyzer. You can find `llvm-symbolyzer` as part of the `llvm` package or as stand-alone program in some package managers. Once installed:
 
-```
-export ASAN_SYMBOLIZER_PATH=/usr/bin/llvm-symbolizer
+```sh
+$ export ASAN_SYMBOLIZER_PATH=/usr/bin/llvm-symbolizer
 ```
 
 ### Launch the code
@@ -102,28 +103,27 @@ Before running you must set some options:
 
 #### ASAN_OPTIONS
 
-- suppressions=pybind.sup: Allows yo define a suppression file (similar to valgrind ones). Currently appears to be bugged while launching from python.
+- **suppressions=pybind.sup:** Allows yo define a suppression file (similar to valgrind ones). Currently appears to be bugged while launching from python.
 
-- halt_on_error=0/1: If compiled with `-fsanitize-recover=address` allows the code to continue after detecting the first problem.
+- **halt_on_error=0/1:** If compiled with `-fsanitize-recover=address` allows the code to continue after detecting the first problem.
 
-- fast_unwind_on_malloc=0/1: If set to 1 increases speed at the cost of preventing part of the trace from being collected. It is recommended to set it to 0.
+- **fast_unwind_on_malloc=0/1:** If set to 1 increases speed at the cost of preventing part of the trace from being collected. It is recommended to set it to 0.
 
 Example:
-```
-export ASAN_OPTIONS=suppressions=pybind.supp:halt_on_error=0:fast_unwind_on_malloc=0
+```sh
+$ export ASAN_OPTIONS=suppressions=pybind.supp:halt_on_error=0:fast_unwind_on_malloc=0
 ```
 
 It is also necessary to preload the asan library if you are running from python. In order to do so:
 
 For serial
-```
-LD_PRELOAD=/usr/lib/clang/11.0.0/lib/linux/libclang_rt.asan-x86_64.so python script.py
+```sh
+$ LD_PRELOAD=/usr/lib/clang/11.0.0/lib/linux/libclang_rt.asan-x86_64.so python script.py
 ```
 
 For MPI:
-```
-mpirun -x LD_PRELOAD=/usr/lib/clang/11.0.0/lib/linux/libclang_rt.asan-x86_64.so -np 2 --output-filename asan_test python script.py
-
+```sh
+$ mpirun -x LD_PRELOAD=/usr/lib/clang/11.0.0/lib/linux/libclang_rt.asan-x86_64.so -np 2 --output-filename asan_test python script.py
 ```
 
 

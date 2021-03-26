@@ -1,7 +1,7 @@
 ---
 title: Overview
 keywords: 
-tags: [Overview.md]
+tags: [General]
 sidebar: kratos_sidebar
 summary: 
 ---
@@ -49,3 +49,5 @@ _Kratos_ is **OPEN SOURCE**. The main code and program structure is available an
 ![](https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/Manos.jpg)
 
 _Kratos_ is **FREE** because is devoted mainly to developers, researchers and students and, therefore, is the most fruitful way to share knowledge and built a robust numerical methods laboratory adapted to their users' needs. Free because you have the freedom to modify and distribute the software. The one thing you're not able to do with free software is take away other people's freedom. Please, read the license for more detailed information. 
+
+{% include links.html %}

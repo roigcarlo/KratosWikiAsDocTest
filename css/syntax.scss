@@ -98,6 +98,9 @@ div.highlight table {
     color: $gray-200;
     border-radius: 8px;
     font-size: 1.3rem;
+    overflow-x: hidden;
+    // scrollbar-width: auto;
+    // scrollbar-color: grey $code-bg;
 }
 
 .highlight .hll { background-color: #373b41 }

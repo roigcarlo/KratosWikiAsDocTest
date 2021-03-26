@@ -6,47 +6,58 @@ sidebar: kratos_sidebar
 summary: 
 ---
 
-Kratos windows compilation is done via Microsoft Visual C++ compiler. Therefore when developement is done in C++ level, if some one has declarations in header file and definitions in `cpp` files, then followings need to considered.
+Windows does not allow the default visibility of symbols and this will cause problems if the implementation of your class is located in a source file (typically your `*.cpp`) and you intend to use it in other applications or expose it to the python layer.
 
-# Classes
-If a class is having seperated header file and cpp, add **KRATOS_API(<APPLICATION_NAME>)** before class name in the header file as explained in following code snippet.
-```
+In order to ease the compilation pipeline and the structure of the project we offer a collection of decorators that automatically import / export symbols when compiling with MSVC.
+
+{% include warning.html content="Its important only to use this if your implementation is in a `cpp` file. If your class is header-only the decorator cause a compilation error." %}
+
+## Classes
+If a class is having seperated header file and cpp, add `KRATOS_API(<APPLICATION_NAME>)` before class name in the header file as explained in following code snippet.
+
+```c++
 class KRATOS_API(FLUID_DYNAMICS_APPLICATION) TestClass
 {
-// rest of the code is unchanged
+    // Rest of the code is unchanged
 };
 ```
 
-# Methods
-If someone implemnets methods in a namespace and it has declaration in header and definition in cpp, then add **KRATOS_API(<APPLICATION_NAME>)** to the front of the method declaration in the header file as explained in following code snippet.
-```
+## Methods
+If someone implemnets methods in a namespace and it has declaration in header and definition in cpp, then add `KRATOS_API(<APPLICATION_NAME>)` to the front of the method declaration in the header file as explained in following code snippet.
+
+```c++
 void KRATOS_API(FLUID_DYNAMICS_APPLICATION) TestMethod(int Value);
 ```
 
-If the method is templated, and you have explicit template instantiations or definitions, then you need to again add **KRATOS_API(<APPLICATION_NAME>)** to all of the template instantiations as explained in following code snippets.
+## Templated Classes and Methods
+If the class or method is templated, and you have explicit template instantiations or definitions, then you need to again add `KRATOS_API(<APPLICATION_NAME>)` to all of the template instantiations as explained in following code snippets (example for a templated method).
 
 In the header file:
-```
+
+```c++
 template<class T>
 void KRATOS_API(FLUID_DYNAMICS_APPLICATION) TestTemplatedMethod(const T& Value);
 ```
 
-In the cpp file:
-```
-// template definition
+In the source file:
+
+```c++
+// Template definition
 template<class T>
 void TestTemplatedMethod<T>(const T& value)
 {
-// function body unchanged
+    // Function body unchanged
 }
 
-// explicit template instantiation and definition
+// Explicit template instantiation and definition
 template<>
 void KRATOS_API(FLUID_DYNAMICS_APPLICATION) TestTemplatedMethod<int>(const int& Value)
 {
-// function body unchanged
+    // Function body unchanged
 }
 
-// explicit template instantiation
+// Explicit template instantiation
 template void KRATOS_API(FLUID_DYNAMICS_APPLICATION) TestTemplatedMethod<double>(const double&);
 ```
+
+{% include note.html content="Note that only explicitly instantiated versions of the class/method will be visible, in the example above `<double>` version would be visible but the `<int>` one would **NOT**." %}

@@ -61,16 +61,13 @@ entries:
     - title: Configure .gitignore
       url: /pages/How-to-make-Git-ignore-the-files-resulting-from-a-compilation-without-conflicts-in-.gitignore.html
       output: web
-    - title: How to configure clang-format
+    - title: Usage of Clang-format
       url: /pages/How-to-configure-clang%E2%80%90format.html
       output: web
-    - title: How to use smart pointer in Kratos
+    - title: Smart pointer in Kratos
       url: /pages/How-to-use-Smart-Pointers-within-Kratos.html
       output: web
-    - title: How to define adjoint elements and response functions
-      url: /pages/Adjoint-API.html
-      output: web
-    - title: KRATOS_API for Windows Compilation
+    - title: KRATOS_API for Windows
       url: /pages/KRATOS_API-for-Windows-Compilation.html
       output: web
 
@@ -109,7 +106,7 @@ entries:
       url: /pages/How-to-use-the-PaStiX-solver-in-Kratos.html
       output: web
 
-  - title: Test & Debug
+  - title: Debug & Test
     output: web
     folderitems:
 
@@ -124,20 +121,20 @@ entries:
         - title: Compiling in Debug
           url: /pages/How-to-Compile-Kratos-in-Debug-mode.html
           output: web
-        - title: Debugging C++ with GDB In Linux
-          url: /pages/Debugging-Kratos-using-GDB.html
+        - title: Debug with GDB
+          url: /pages/debug/gdb.html
           output: web
-        - title: Debugging C++ wih VStudio In Windows
-          url: /pages/Debugging-Kratos-using-Visual-Studio.html
+        - title: Debug with Visual Studio
+          url: /pages/debug/visual-studio.html
           output: web
         - title: Cross-Debugging in Windows
-          url: /pages/How-to-cross-debug-Kratos-under-Windows.html
+          url: /pages/debug/cross-debug.html
           output: web
-        - title: Thread Sanitizer and OMP data race bugs
+        - title: Thread Sanitizer
           url: /pages/debug/thread-sanitizer.html
           output: web
-        - title: Memory Sanitizer with ASAN
-          url: /pages/Debug-Memory-Using-ASAN.html
+        - title: Memory Sanitizer
+          url: /pages/debug/address-sanitizer.html
           output: web
 
       - title: Profile
@@ -261,6 +258,10 @@ entries:
 
         - title: Parallel Utilities
           url: /pages/Parallel-Utilities.html
+          output: web
+
+        - title: Adjoint elements and response functions
+          url: /pages/Adjoint-API.html
           output: web
 
       - title: Applications
