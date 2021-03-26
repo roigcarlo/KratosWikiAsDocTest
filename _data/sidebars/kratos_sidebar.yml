@@ -106,7 +106,7 @@ entries:
       url: /pages/How-to-use-the-FEAST-Solver-in-Kratos%3F.html
       output: web
     - title: PaStiX Solver
-      url: /pages/ttps://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-the-PaStiX-solver-in-Kratos.html
+      url: /pages/How-to-use-the-PaStiX-solver-in-Kratos.html
       output: web
 
   - title: Test & Debug
