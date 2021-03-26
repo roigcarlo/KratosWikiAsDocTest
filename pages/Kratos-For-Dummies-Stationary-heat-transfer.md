@@ -42,9 +42,11 @@ As explained in the [home page](https://github.com/KratosMultiphysics/Kratos/wik
 [dummies1_3cb]: #using-the-gid-problemtype
 ## Basic description of the problem and main tools of _Kratos_ used:
 
-We'll create the simplest possible finite element formulation. For that purpose we'll create an application that solves a stationary heat conduction problem in 2D. This is a diffusion only problem with only one degree of freedom (DoF) per node. 
+We'll create the simplest possible finite element formulation. For that purpose we'll create an application that solves a stationary heat conduction problem in 2D. This is a diffusion only problem with only one degree of freedom (DoF) per node.
 
-![](https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Kratos-For-Dummies/equation.png)
+$$ \nabla · (K\nabla\Phi) = f $$ 
+
+Were \\(K\\) is the material heat conductivity
 
 ![](https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Kratos-For-Dummies/gid_screenshoot.png)
 
@@ -79,10 +81,11 @@ Elements and Conditions are both classes in C++ that include a series of subrout
 
 ~~~c
 class mycondition
-           void CalculateLocalSystem
-           void CalculateRightHandSide
-           void EquationIdVector
-           void GetDofList
+
+void CalculateLocalSystem
+void CalculateRightHandSide
+void EquationIdVector
+void GetDofList
 ~~~
 
 ### Python Scripts 
