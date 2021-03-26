@@ -9,11 +9,10 @@
       <a title="{{folder.title}}" href="#">{{folder.title}}</a>
       <ul>
           {% for folderitem in folder.folderitems %}
-          {% assign sideurl = folderitem.url | prepend: site.baseurl %}
           {% if folderitem.output contains "web" %}
           {% if folderitem.external_url %}
           <li><a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a></li>
-          {% elsif page.url == sideurl %}
+          {% elsif page.url == folderitem.url %}
           <li class="active"><a title="{{folderitem.title}}" href="{{folderitem.url | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
           {% elsif folderitem.type == "empty" %}
           <li><a title="{{folderitem.title}}" href="{{folderitem.url | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
@@ -26,11 +25,10 @@
               <a title="{{subfolders.title}}" href="#">{{ subfolders.title }}</a>
               <ul>
                   {% for subfolderitem in subfolders.subfolderitems %}
-                  {% assign subsideurl = subfolderitem.url | prepend: site.baseurl %}
                   {% if subfolderitem.output contains "web" %}
                   {% if subfolderitem.external_url %}
                   <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.external_url | prepend: site.baseurl }}" target="_blank" rel="noopener">{{subfolderitem.title}}</a></li>
-                  {% elsif page.url == subsideurl %}
+                  {% elsif page.url == subfolderitem.url %}
                   <li class="active"><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
                   {% else %}
                   <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | prepend: site.baseurl}}">{{subfolderitem.title}}</a></li>

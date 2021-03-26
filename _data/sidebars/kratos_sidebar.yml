@@ -8,7 +8,7 @@ entries:
     output: web
     folderitems:
     - title: Home
-      url: /pages/wiki.html
+      url: /index.html
       output: web
     - title: Overview
       url: /pages/Overview.html
@@ -65,7 +65,7 @@ entries:
       url: /pages/How-to-configure-clang%E2%80%90format.html
       output: web
     - title: How to use smart pointer in Kratos
-      url: /pages/How-to-use-%22Smart-Pointers%22-within-Kratos.html
+      url: /pages/How-to-use-Smart-Pointers-within-Kratos.html
       output: web
     - title: How to define adjoint elements and response functions
       url: /pages/Adjoint-API.html
@@ -79,10 +79,10 @@ entries:
     output: web
     folderitems:
     - title: General Structure
-      url: /pages/General-structure.html
+      url: /pages/General-Structure.html
       output: web
     - title: Kratos kernel and application approach
-      url: /pages/Editing-Kratos-kernel-and-application-approach.html
+      url: /pages/Editing-kratos-kernel-and-application-approach.html
       output: web
     - title: Input data
       url: /pages/Input-data.html
@@ -103,10 +103,10 @@ entries:
     output: web
     folderitems:
     - title: FEAST Solver
-      url: /pages/How-to-use-the-FEAST-Solver-in-Kratos%3F.html
+      url: /pages/How-to-use-the-FEAST-Solver-in-Kratos.html
       output: web
     - title: PaStiX Solver
-      url: /pages/ttps://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-the-PaStiX-solver-in-Kratos.html
+      url: /pages/How-to-use-the-PaStiX-solver-in-Kratos.html
       output: web
 
   - title: Test & Debug
@@ -125,7 +125,7 @@ entries:
           url: /pages/How-to-Compile-Kratos-in-Debug-mode.html
           output: web
         - title: Debugging C++ with GDB In Linux
-          url: /pages/Debugging-Kratos-Using-GDB.html
+          url: /pages/Debugging-Kratos-using-GDB.html
           output: web
         - title: Debugging C++ wih VStudio In Windows
           url: /pages/Debugging-Kratos-using-Visual-Studio.html
@@ -134,7 +134,7 @@ entries:
           url: /pages/How-to-cross-debug-Kratos-under-Windows.html
           output: web
         - title: Thread Sanitizer and OMP data race bugs
-          url: /pages/How-to-use-ThreadSanitizer-to-detect-OMP-data-race-bugs.html
+          url: /pages/debug/thread-sanitizer.html
           output: web
         - title: Memory Sanitizer with ASAN
           url: /pages/Debug-Memory-Using-ASAN.html
@@ -272,7 +272,7 @@ entries:
           output: web
 
         - title: Heat Trasnfer Example
-          url: /pages/Kratos-For-Dummies:-Stationary-heat-transfer.html
+          url: /pages/Kratos-For-Dummies-Stationary-heat-transfer.html
           output: web
 
       - title: Other
@@ -288,7 +288,7 @@ entries:
           output: web
     
         - title: Pybind11 Interface
-          url: /pages/Porting-to-PyBind11---common-steps.html
+          url: /pages/Porting-to-PyBind11-common-steps.html
           output: web
 
         - title: Porting to AMatrix
@@ -320,21 +320,21 @@ entries:
     output: web
     folderitems:
     - title: MMG remeshing process
-      url: /pages/[Utilities]-MMG-Process.html
+      url: /pages/Utilities-MMG-Process.html
       output: web
     - title: ParMMG remeshing process
-      url: /pages/%5BUtilities%5D-ParMmg-Process.html
+      url: /pages/Utilities-ParMmg-Process.html
       output: web
     - title: Model part colors utility
-      url: /pages/%5BUtilities%5D-Colors-utility.html
+      url: /pages/Utilities-Colors-utility.html
       output: web
 
   - title: Kratos API
 
     output: web
     folderitems:
-    - title: MultiPoint Constraint (MPC) interface
-      url: /pages/[KratosAPI]-MultiPoint-Constraint-(MPC)-interface.html
+    - title: MultiPoint Constraint Interface
+      url: /pages/MultiPoint-Constraint-interface.html
       output: web
 
   - title: Kratos Structural Mechanics API
@@ -342,5 +342,5 @@ entries:
     output: web
     folderitems:
     - title: Documentation about the Constitutive Laws
-      url: /pages/%5BKratosStructuralMechanicsAPI%5D-Constitutive-laws-in-Structural-Mechanics-Application.html
+      url: /pages/KratosStructuralMechanicsAPI-Constitutive-laws-in-Structural-Mechanics-Application.html
       output: web
