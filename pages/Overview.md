@@ -2,7 +2,7 @@
 title: Overview
 keywords: 
 tags: [Overview.md]
-sidebar: kratos_sidebar
+sidebar: product1_sidebar
 summary: 
 ---
 
